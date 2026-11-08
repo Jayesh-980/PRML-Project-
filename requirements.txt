@@ -1,0 +1,14 @@
+# Tested on Python 3.11.
+# Pinned because outputs/music_tribes/*.joblib were saved with scikit-learn 1.8.0,
+# and pickled models are only reliable on the version that wrote them.
+numpy==2.4.1
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+matplotlib==3.10.8
+umap-learn==0.5.12
+numba==0.67.0
+pynndescent==0.6.0
+jupyter
