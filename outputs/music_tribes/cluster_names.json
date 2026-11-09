@@ -1,38 +1,38 @@
 {
   "0": {
-    "name": "Sunlit Anthems",
-    "tagline": "Loud, upbeat, major-key band music",
-    "description": "The largest tribe. Energetic and danceable, mixed loud (-7.7 dB), low acousticness (0.25), high valence (0.67), tempo around 125 BPM. Every track is in a major key. Musically this is mainstream rock and pop: classic rock, album rock, soft rock, plus a large Latin and filmi contingent.",
-    "naming_justification": "Named for the combination of high energy, high valence and major tonality - the 'bright' end of recorded music. The word 'Anthems' reflects the loud, full-band production profile rather than any genre label."
-  },
-  "1": {
-    "name": "Instrumental Meditations",
-    "tagline": "Quiet, acoustic, no vocals",
-    "description": "Defined almost entirely by instrumentalness (+2.64 SD, raw 0.81): tracks with essentially no sung vocal. Also the quietest tribe (-17.0 dB) and the most acoustic (0.81). Dominated by classical (36%) and jazz (28%): Bach, Mozart, Chopin, Beethoven, plus cool jazz and bebop.",
-    "naming_justification": "Instrumentalness is the single dominant axis, and the low energy/low loudness profile gives the contemplative character. This is the cluster the plan anticipated under exactly this name."
-  },
-  "2": {
     "name": "Live on Stage",
     "tagline": "Concert and in-room recordings",
-    "description": "Separated on one axis: liveness +2.69 SD (raw 0.71), meaning audience presence detected in the recording. Otherwise energetic and loud, like the anthem tribes, and the longest tracks on average (4:39). Rock and pop live albums, long-form ragas and filmi performances.",
+    "description": "Separated on one axis: liveness +2.75 SD (raw 0.72), meaning an audience or room is audible in the recording. Otherwise energetic (0.67) and fairly loud (-8.8 dB), and the longest tracks of any tribe (4:29 on average). Live rock and pop albums (Pink Floyd, Bob Dylan, Queen, The Rolling Stones), long-form filmi and Arabic performances (Umm Kulthum), plus some radio-play episodes recorded in a live room.",
     "naming_justification": "A recording-context tribe rather than a sonic one: the defining feature is where the recording was made, not what was played. Named literally to avoid implying it is a genre."
   },
-  "3": {
-    "name": "Acoustic Storytellers",
-    "tagline": "Soft, acoustic, vocal-led, melancholy",
-    "description": "Low energy (0.30), high acousticness (0.75), quiet (-13.0 dB), low valence (0.39), but near-zero instrumentalness - a singer is present. Vocal jazz, adult standards, lounge, soul and ballads: Sinatra, Ella Fitzgerald, Billie Holiday, Lata Mangeshkar, alongside modern acoustic ballads.",
-    "naming_justification": "The pairing of high acousticness with low instrumentalness means 'acoustic backing plus a voice'; the low valence gives the reflective, narrative character."
+  "1": {
+    "name": "High-Voltage Anthems",
+    "tagline": "Loud, fast, electric and intense",
+    "description": "The highest-energy tribe: energy 0.74 (+0.80 SD), loudness -6.9 dB (+0.65 SD), the fastest tempo (139 BPM, +0.70 SD) and almost no acoustic sound (acousticness 0.15, -0.88 SD). Valence and danceability sit below average, so this is drive rather than groove. Rock and metal (38%) and pop (34%) dominate, with the most electronic music of any tribe (9.5%): Metallica, Deep Purple, Black Sabbath, Ramones, Oasis, Armin van Buuren. The most recent tribe (median year 2002).",
+    "naming_justification": "Named for the combination of maximum energy, loudness and tempo with low acousticness - the 'electric' end of recorded music. 'Anthems' reflects the loud, full-band or full-mix production, and the lower valence separates it from the brighter Sunlit Grooves."
   },
-  "4": {
+  "2": {
     "name": "Spoken Word & Audio Drama",
     "tagline": "Talk, not music",
-    "description": "The cleanest tribe in the model: speechiness +4.04 SD (raw 0.87), short tracks (2:27), quiet and irregular in metre. 85% of its labelled tracks carry a spoken-word genre - German Hoerspiel series (Die drei ???, Benjamin Bluemchen, Bibi Blocksberg), Scandinavian barnsagor, audiobook chapters.",
-    "naming_justification": "Highest internal silhouette (0.23) and highest genre purity (85%). Named for content type because the cluster is not music at all - it is serialised audio fiction that happens to be distributed on Spotify."
+    "description": "The cleanest tribe in the model: speechiness +4.05 SD (raw 0.87), short tracks (2:29), quiet (-15.6 dB). 85% of its labelled tracks carry a spoken-word genre - German Hoerspiel series (Die drei ???, TKKG, Benjamin Bluemchen, Bibi Blocksberg), Scandinavian barnsagor, audiobook chapters.",
+    "naming_justification": "Highest genre purity of any tribe (85%). Named for content type because the cluster is not music at all - it is serialised audio fiction that happens to be distributed on Spotify."
+  },
+  "3": {
+    "name": "Instrumental Meditations",
+    "tagline": "Quiet, acoustic, no vocals",
+    "description": "Defined almost entirely by instrumentalness (+2.63 SD, raw 0.81): tracks with essentially no sung vocal. Also the quietest tribe (-17.2 dB) and the most acoustic (0.83). Dominated by classical (37%) and jazz (28%): Bach, Mozart, Chopin, Beethoven, Stravinsky, plus cool jazz, bebop and modern piano and ambient pieces (Yann Tiersen, Joe Hisaishi).",
+    "naming_justification": "Instrumentalness is the single dominant axis, and the low energy and low loudness give the contemplative character. This is the cluster the plan anticipated under exactly this name."
+  },
+  "4": {
+    "name": "Acoustic Storytellers",
+    "tagline": "Soft, acoustic, vocal-led, melancholy",
+    "description": "Low energy (0.31), high acousticness (0.75), quiet (-12.9 dB), low valence (0.40), but near-zero instrumentalness (0.02) - a singer is present. Vocal jazz, adult standards, lounge, filmi and ballads: Sinatra, Ella Fitzgerald, Billie Holiday, Lata Mangeshkar, alongside modern acoustic ballads (Adele's Someone Like You sits here). Half of all 1950s tracks belong to this tribe.",
+    "naming_justification": "The pairing of high acousticness with low instrumentalness means 'acoustic backing plus a voice'; the low valence gives the reflective, narrative character."
   },
   "5": {
-    "name": "Midnight Anthems",
-    "tagline": "The same drive, in minor keys",
-    "description": "Sonically almost identical to Sunlit Anthems - same energy (0.68), loudness (-7.7 dB), danceability (0.63) and acousticness (0.26) - but every track is in a minor key. It skews noticeably more recent (median 2001 vs 1998) and carries more hip-hop (14% vs 9%) and electronic/dance (9% vs 7%), consistent with the industry-wide drift toward minor tonality in modern pop.",
-    "naming_justification": "Named as the deliberate counterpart of cluster 0, because the split between them is tonal rather than sonic. The report documents this pair as an artifact of including the binary 'mode' feature in a Euclidean clustering."
+    "name": "Sunlit Grooves",
+    "tagline": "Bright, danceable, feel-good",
+    "description": "The largest tribe and the happiest: danceability 0.70 (+0.82 SD) and valence 0.76 (+0.81 SD), with solid energy (0.66) and loudness (-8.1 dB) at a moderate 115 BPM. Pop (39%), rock (17%), hip-hop (14%) and Latin (10%): Elvis Presley, Johnny Cash, The Beach Boys, Los Tigres del Norte, S. P. Balasubrahmanyam, and modern dance-pop. Its share grows to 47% of the 2020s.",
+    "naming_justification": "Named for the combination of high valence ('sunlit') and high danceability ('grooves'). Where High-Voltage Anthems is fast and intense, this tribe is upbeat and rhythmic - the split the 10 continuous features find in place of the old major/minor pair."
   }
 }

@@ -13,1167 +13,152 @@
       "liveness",
       "valence",
       "tempo",
-      "duration_ms",
+      "duration_ms"
+    ],
+    "features_excluded": [
       "mode",
       "time_signature"
     ],
-    "silhouette": 0.161
+    "silhouette": 0.1867
   },
   "clusters": [
     {
-      "size": 33914,
-      "share": 0.3391,
-      "mean_popularity": 32.28,
-      "mean_pop_z": 0.074,
-      "median_year": 1998,
-      "centroid_standardized": {
-        "danceability": 0.338,
-        "energy": 0.591,
-        "loudness": 0.503,
-        "speechiness": -0.185,
-        "acousticness": -0.571,
-        "instrumentalness": -0.24,
-        "liveness": -0.255,
-        "valence": 0.439,
-        "tempo": 0.217,
-        "duration_ms": -0.027,
-        "mode": 0.722,
-        "time_signature": 0.188
-      },
-      "centroid_raw_units": {
-        "danceability": 0.621,
-        "energy": 0.69,
-        "loudness": -7.679,
-        "speechiness": 0.075,
-        "acousticness": 0.253,
-        "instrumentalness": 0.048,
-        "liveness": 0.168,
-        "valence": 0.666,
-        "tempo": 124.929,
-        "duration_ms": 225487.602,
-        "mode": 1.0,
-        "time_signature": 3.961
-      },
-      "top_genres": [
-        [
-          "rock",
-          2258
-        ],
-        [
-          "classic rock",
-          1677
-        ],
-        [
-          "mellow gold",
-          1228
-        ],
-        [
-          "album rock",
-          1228
-        ],
-        [
-          "soft rock",
-          1085
-        ],
-        [
-          "folk rock",
-          1044
-        ],
-        [
-          "latin",
-          995
-        ],
-        [
-          "hard rock",
-          892
-        ],
-        [
-          "country rock",
-          850
-        ],
-        [
-          "art rock",
-          846
-        ]
-      ],
-      "top_genre_buckets": [
-        [
-          "Pop",
-          0.372
-        ],
-        [
-          "Rock / Metal",
-          0.271
-        ],
-        [
-          "Hip-Hop / Rap",
-          0.091
-        ],
-        [
-          "Latin / World",
-          0.083
-        ],
-        [
-          "Jazz / Standards",
-          0.069
-        ]
-      ],
-      "top_decades": [
-        [
-          2010,
-          7778
-        ],
-        [
-          1990,
-          7289
-        ],
-        [
-          2000,
-          6310
-        ],
-        [
-          1980,
-          4920
-        ],
-        [
-          1970,
-          3342
-        ]
-      ],
-      "top_artists": [
-        [
-          "S. P. Balasubrahmanyam",
-          57
-        ],
-        [
-          "Lata Mangeshkar",
-          52
-        ],
-        [
-          "The Rolling Stones",
-          52
-        ],
-        [
-          "The Beach Boys",
-          46
-        ],
-        [
-          "Francisco Canaro",
-          46
-        ],
-        [
-          "Eddie Meduza",
-          44
-        ],
-        [
-          "Elvis Presley",
-          41
-        ],
-        [
-          "Los Tigres Del Norte",
-          39
-        ],
-        [
-          "Die drei ???",
-          34
-        ],
-        [
-          "Workout Music ",
-          34
-        ],
-        [
-          "Queen",
-          34
-        ],
-        [
-          "Udit Narayan",
-          32
-        ],
-        [
-          "Pritam",
-          31
-        ],
-        [
-          "David Bowie",
-          31
-        ],
-        [
-          "Bronco",
-          31
-        ],
-        [
-          "The Beatles",
-          30
-        ],
-        [
-          "Ti\u00e3o Carreiro & Pardinho",
-          29
-        ],
-        [
-          "Ramones",
-          29
-        ],
-        [
-          "Bob Dylan",
-          29
-        ],
-        [
-          "Fleetwood Mac",
-          28
-        ]
-      ],
-      "closest_songs": [
-        {
-          "name": "Smile",
-          "artist": "Pussycat",
-          "year": 1976,
-          "popularity": 45,
-          "dist": 0.497
-        },
-        {
-          "name": "Japanese Boy",
-          "artist": "Andrea J\u00fcrgens",
-          "year": 1977,
-          "popularity": 32,
-          "dist": 0.5
-        },
-        {
-          "name": "Disney Reprise",
-          "artist": "Tanya Markova",
-          "year": 2010,
-          "popularity": 36,
-          "dist": 0.614
-        },
-        {
-          "name": "A Samoan Wedding Song",
-          "artist": "Jamoa Jam",
-          "year": 2000,
-          "popularity": 31,
-          "dist": 0.615
-        },
-        {
-          "name": "\u05e9\u05e0\u05d9 \u05ea\u05e4\u05d5\u05d7\u05d9\u05dd",
-          "artist": "Svika Pick",
-          "year": 1972,
-          "popularity": 16,
-          "dist": 0.624
-        },
-        {
-          "name": "Don't Want You No More",
-          "artist": "Mano Negra",
-          "year": 1991,
-          "popularity": 32,
-          "dist": 0.628
-        },
-        {
-          "name": "\u5b87\u5b99\u306f\u5927\u30d8\u30f3\u3060!",
-          "artist": "\u677e\u8c37\u7950\u5b50",
-          "year": 1991,
-          "popularity": 21,
-          "dist": 0.637
-        },
-        {
-          "name": "Frystikistulagi\u00f0",
-          "artist": "Greifarnir",
-          "year": 1996,
-          "popularity": 24,
-          "dist": 0.644
-        },
-        {
-          "name": "Your Kind Of Love",
-          "artist": "Status Quo",
-          "year": 1983,
-          "popularity": 21,
-          "dist": 0.646
-        },
-        {
-          "name": "Careful - Remastered",
-          "artist": "Television",
-          "year": 1978,
-          "popularity": 27,
-          "dist": 0.653
-        },
-        {
-          "name": "Embarque ma belle",
-          "artist": "Ka\u00efn",
-          "year": 2005,
-          "popularity": 50,
-          "dist": 0.656
-        },
-        {
-          "name": "Nobody Wins",
-          "artist": "Radney Foster",
-          "year": 1992,
-          "popularity": 49,
-          "dist": 0.664
-        },
-        {
-          "name": "\u672a\u6765",
-          "artist": "HY",
-          "year": 2008,
-          "popularity": 30,
-          "dist": 0.665
-        },
-        {
-          "name": "Beautiful",
-          "artist": "Tan Bionica",
-          "year": 2010,
-          "popularity": 52,
-          "dist": 0.666
-        },
-        {
-          "name": "Luna Llena",
-          "artist": "Malacates Trebol Shop",
-          "year": 2015,
-          "popularity": 46,
-          "dist": 0.667
-        },
-        {
-          "name": "\u0e04\u0e27\u0e32\u0e21\u0e2b\u0e27\u0e32\u0e19 (Sweet)",
-          "artist": "Lula",
-          "year": 2011,
-          "popularity": 37,
-          "dist": 0.67
-        },
-        {
-          "name": "Ei miest\u00e4 voi raiskata",
-          "artist": "Jaakko Teppo",
-          "year": 1995,
-          "popularity": 13,
-          "dist": 0.67
-        },
-        {
-          "name": "C\u00b4mon Baby Yeah",
-          "artist": "Tehosekoitin",
-          "year": 1997,
-          "popularity": 14,
-          "dist": 0.675
-        },
-        {
-          "name": "K\u0131skan\u0131r\u0131m",
-          "artist": "Erkin Koray",
-          "year": 1993,
-          "popularity": 23,
-          "dist": 0.676
-        },
-        {
-          "name": "Ehsaas",
-          "artist": "Atif Aslam",
-          "year": 2006,
-          "popularity": 33,
-          "dist": 0.677
-        }
-      ],
-      "showcase_songs": [
-        {
-          "name": "Goosebumps - Remix",
-          "artist": "Travis Scott",
-          "year": 2021,
-          "popularity": 92
-        },
-        {
-          "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
-          "artist": "Maroon 5",
-          "year": 2021,
-          "popularity": 90
-        },
-        {
-          "name": "LOCATION",
-          "artist": "KAROL G",
-          "year": 2021,
-          "popularity": 86
-        },
-        {
-          "name": "Everybody Wants To Rule The World",
-          "artist": "Tears For Fears",
-          "year": 1985,
-          "popularity": 84
-        },
-        {
-          "name": "Livin' On A Prayer",
-          "artist": "Bon Jovi",
-          "year": 1986,
-          "popularity": 84
-        },
-        {
-          "name": "Fortunate Son",
-          "artist": "Creedence Clearwater Revival",
-          "year": 1969,
-          "popularity": 83
-        },
-        {
-          "name": "Without Me",
-          "artist": "Halsey",
-          "year": 2018,
-          "popularity": 83
-        },
-        {
-          "name": "Deixa de Onda (Porra Nenhuma)",
-          "artist": "DENNIS",
-          "year": 2021,
-          "popularity": 83
-        },
-        {
-          "name": "Lasting Lover",
-          "artist": "Sigala",
-          "year": 2020,
-          "popularity": 83
-        },
-        {
-          "name": "Ain't No Mountain High Enough",
-          "artist": "Marvin Gaye",
-          "year": 1967,
-          "popularity": 82
-        },
-        {
-          "name": "Higher Love",
-          "artist": "Kygo",
-          "year": 2019,
-          "popularity": 82
-        },
-        {
-          "name": "Shut Up and Dance",
-          "artist": "WALK THE MOON",
-          "year": 2014,
-          "popularity": 82
-        },
-        {
-          "name": "Loved By You (feat. Burna Boy)",
-          "artist": "Justin Bieber",
-          "year": 2021,
-          "popularity": 82
-        },
-        {
-          "name": "Pulei na Piscina - Ao Vivo",
-          "artist": "Guilherme & Benuto",
-          "year": 2020,
-          "popularity": 82
-        },
-        {
-          "name": "CHICKEN TENDIES",
-          "artist": "Clinton Kane",
-          "year": 2021,
-          "popularity": 82
-        },
-        {
-          "name": "Whiskey Glasses",
-          "artist": "Morgan Wallen",
-          "year": 2018,
-          "popularity": 81
-        },
-        {
-          "name": "\u00c9 Problema",
-          "artist": "Matheus & Kauan",
-          "year": 2020,
-          "popularity": 81
-        },
-        {
-          "name": "I Still Haven't Found What I'm Looking For",
-          "artist": "U2",
-          "year": 1987,
-          "popularity": 80
-        },
-        {
-          "name": "All Star",
-          "artist": "Smash Mouth",
-          "year": 1999,
-          "popularity": 80
-        },
-        {
-          "name": "24K Magic",
-          "artist": "Bruno Mars",
-          "year": 2016,
-          "popularity": 80
-        }
-      ],
-      "cluster_id": 0,
-      "name": "Sunlit Anthems",
-      "tagline": "Loud, upbeat, major-key band music",
-      "description": "The largest tribe. Energetic and danceable, mixed loud (-7.7 dB), low acousticness (0.25), high valence (0.67), tempo around 125 BPM. Every track is in a major key. Musically this is mainstream rock and pop: classic rock, album rock, soft rock, plus a large Latin and filmi contingent.",
-      "naming_justification": "Named for the combination of high energy, high valence and major tonality - the 'bright' end of recorded music. The word 'Anthems' reflects the loud, full-band production profile rather than any genre label.",
-      "colour": "#E4572E",
-      "silhouette": 0.192,
-      "radar": {
-        "danceability": 0.621,
-        "energy": 0.69,
-        "loudness": -7.678,
-        "speechiness": 0.075,
-        "acousticness": 0.253,
-        "instrumentalness": 0.048,
-        "liveness": 0.168,
-        "valence": 0.666,
-        "tempo": 124.937
-      },
-      "share_by_decade": {
-        "1920": 0.08300079808459697,
-        "1930": 0.08816914080071975,
-        "1940": 0.06267605633802817,
-        "1950": 0.11046220590689138,
-        "1960": 0.22470530451866405,
-        "1970": 0.314422805532035,
-        "1980": 0.3484666052836603,
-        "1990": 0.3916080159028636,
-        "2000": 0.43030551009274415,
-        "2010": 0.4270107054625309,
-        "2020": 0.3944981862152358
-      },
-      "count_by_decade": {
-        "1920": 104,
-        "1930": 196,
-        "1940": 178,
-        "1950": 662,
-        "1960": 1830,
-        "1970": 3342,
-        "1980": 4920,
-        "1990": 7289,
-        "2000": 6310,
-        "2010": 7778,
-        "2020": 1305
-      }
-    },
-    {
-      "size": 8611,
-      "share": 0.0861,
-      "mean_popularity": 16.03,
-      "mean_pop_z": -0.143,
-      "median_year": 1964,
-      "centroid_standardized": {
-        "danceability": -0.837,
-        "energy": -1.065,
-        "loudness": -1.325,
-        "speechiness": -0.275,
-        "acousticness": 1.034,
-        "instrumentalness": 2.637,
-        "liveness": -0.236,
-        "valence": -0.639,
-        "tempo": -0.327,
-        "duration_ms": 0.15,
-        "mode": 0.039,
-        "time_signature": -0.221
-      },
-      "centroid_raw_units": {
-        "danceability": 0.426,
-        "energy": 0.274,
-        "loudness": -16.968,
-        "speechiness": 0.058,
-        "acousticness": 0.81,
-        "instrumentalness": 0.81,
-        "liveness": 0.171,
-        "valence": 0.388,
-        "tempo": 108.699,
-        "duration_ms": 248251.121,
-        "mode": 0.676,
-        "time_signature": 3.765
-      },
-      "top_genres": [
-        [
-          "classical",
-          1698
-        ],
-        [
-          "cool jazz",
-          662
-        ],
-        [
-          "jazz",
-          650
-        ],
-        [
-          "adult standards",
-          489
-        ],
-        [
-          "bebop",
-          469
-        ],
-        [
-          "vocal jazz",
-          429
-        ],
-        [
-          "early romantic era",
-          409
-        ],
-        [
-          "stride",
-          404
-        ],
-        [
-          "late romantic era",
-          397
-        ],
-        [
-          "lounge",
-          394
-        ]
-      ],
-      "top_genre_buckets": [
-        [
-          "Classical",
-          0.363
-        ],
-        [
-          "Jazz / Standards",
-          0.276
-        ],
-        [
-          "Rock / Metal",
-          0.118
-        ],
-        [
-          "Pop",
-          0.106
-        ],
-        [
-          "Latin / World",
-          0.071
-        ]
-      ],
-      "top_decades": [
-        [
-          1950,
-          1458
-        ],
-        [
-          1960,
-          1224
-        ],
-        [
-          1940,
-          1125
-        ],
-        [
-          1990,
-          952
-        ],
-        [
-          1970,
-          806
-        ]
-      ],
-      "top_artists": [
-        [
-          "Johann Sebastian Bach",
-          221
-        ],
-        [
-          "Francisco Canaro",
-          171
-        ],
-        [
-          "Wolfgang Amadeus Mozart",
-          149
-        ],
-        [
-          "Fr\u00e9d\u00e9ric Chopin",
-          143
-        ],
-        [
-          "Ludwig van Beethoven",
-          120
-        ],
-        [
-          "Igor Stravinsky",
-          85
-        ],
-        [
-          "Johannes Brahms",
-          70
-        ],
-        [
-          "Pyotr Ilyich Tchaikovsky",
-          57
-        ],
-        [
-          "Ignacio Corsini",
-          55
-        ],
-        [
-          "Lata Mangeshkar",
-          51
-        ],
-        [
-          "Claude Debussy",
-          48
-        ],
-        [
-          "Oscar Peterson",
-          47
-        ],
-        [
-          "Franz Schubert",
-          47
-        ],
-        [
-          "Joe Hisaishi",
-          46
-        ],
-        [
-          "Robert Schumann",
-          44
-        ],
-        [
-          "Johann Strauss II",
-          33
-        ],
-        [
-          "Bill Evans",
-          30
-        ],
-        [
-          "Felix Mendelssohn",
-          29
-        ],
-        [
-          "Antonio Vivaldi",
-          29
-        ],
-        [
-          "Ennio Morricone",
-          29
-        ]
-      ],
-      "closest_songs": [
-        {
-          "name": "La boutique fantasque, P. 120 (after Rossini): Galop - Finale",
-          "artist": "Ottorino Respighi",
-          "year": 1950,
-          "popularity": 0,
-          "dist": 1.149
-        },
-        {
-          "name": "Ciudad Triste",
-          "artist": "Astor Piazzolla",
-          "year": 1963,
-          "popularity": 5,
-          "dist": 1.229
-        },
-        {
-          "name": "April In Portugal (The Whisp'ring Serenade)",
-          "artist": "Percy Faith & His Orchestra",
-          "year": 1953,
-          "popularity": 7,
-          "dist": 1.259
-        },
-        {
-          "name": "Tramp Waltz - Remastered",
-          "artist": "Lemuel Turner",
-          "year": 1930,
-          "popularity": 0,
-          "dist": 1.284
-        },
-        {
-          "name": "Sullivan: The Mikado or The Town of Titipu, Act 1: No. 1, Chorus, \"If you want to know who we are\" (Nobles)",
-          "artist": "Arthur Sullivan",
-          "year": 1957,
-          "popularity": 9,
-          "dist": 1.288
-        },
-        {
-          "name": "What Game Shall We Play Today",
-          "artist": "Gary Burton",
-          "year": 1973,
-          "popularity": 26,
-          "dist": 1.293
-        },
-        {
-          "name": "Five",
-          "artist": "Bill Evans",
-          "year": 1956,
-          "popularity": 18,
-          "dist": 1.296
-        },
-        {
-          "name": "Symphony No. 29 in A Major, K. 201: I. Allegro moderato",
-          "artist": "Wolfgang Amadeus Mozart",
-          "year": 1955,
-          "popularity": 16,
-          "dist": 1.302
-        },
-        {
-          "name": "Piano Trio No. 1 in D Minor, Op. 63: II. Lebhaft, doch nicht zu rasch",
-          "artist": "Robert Schumann",
-          "year": 1953,
-          "popularity": 0,
-          "dist": 1.323
-        },
-        {
-          "name": "Hurry Up Now",
-          "artist": "Harumi",
-          "year": 1968,
-          "popularity": 41,
-          "dist": 1.335
-        },
-        {
-          "name": "Images, L. 122, 2. Ib\u00e9ria: III. Le matin d'un jour de f\u00eate",
-          "artist": "Claude Debussy",
-          "year": 1942,
-          "popularity": 0,
-          "dist": 1.34
-        },
-        {
-          "name": "Galliard Upon a Galliard of Daniel Bachelar",
-          "artist": "John Dowland",
-          "year": 1961,
-          "popularity": 2,
-          "dist": 1.345
-        },
-        {
-          "name": "Sleepy Time Gal",
-          "artist": "Paul Weston",
-          "year": 1959,
-          "popularity": 13,
-          "dist": 1.346
-        },
-        {
-          "name": "Maria",
-          "artist": "Oscar Peterson Trio",
-          "year": 1962,
-          "popularity": 28,
-          "dist": 1.374
-        },
-        {
-          "name": "Silar Sirippaar",
-          "artist": "T. M. Soundararajan",
-          "year": 1961,
-          "popularity": 11,
-          "dist": 1.382
-        },
-        {
-          "name": "Kahit Konti",
-          "artist": "Florante",
-          "year": 1983,
-          "popularity": 17,
-          "dist": 1.39
-        },
-        {
-          "name": "Apaoo paei to nero",
-          "artist": "Sotiris Stasinopoulos",
-          "year": 1940,
-          "popularity": 0,
-          "dist": 1.394
-        },
-        {
-          "name": "Radha Radha Pyari Radha",
-          "artist": "Leela Chitnis",
-          "year": 1939,
-          "popularity": 1,
-          "dist": 1.397
-        },
-        {
-          "name": "I Don't Know How To Love Him",
-          "artist": "Louis van Dijk",
-          "year": 1980,
-          "popularity": 14,
-          "dist": 1.399
-        },
-        {
-          "name": "Pinocchio's Daring Journey - Tokyo Disneyland",
-          "artist": "Tokyo Disneyland",
-          "year": 1999,
-          "popularity": 27,
-          "dist": 1.4
-        }
-      ],
-      "showcase_songs": [
-        {
-          "name": "Vas",
-          "artist": "jagger finn",
-          "year": 2019,
-          "popularity": 74
-        },
-        {
-          "name": "River Flows In You",
-          "artist": "Yiruma",
-          "year": 2001,
-          "popularity": 71
-        },
-        {
-          "name": "Cello Suite No. 1 in G Major, BWV 1007: I. Pr\u00e9lude",
-          "artist": "Johann Sebastian Bach",
-          "year": 1983,
-          "popularity": 70
-        },
-        {
-          "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
-          "artist": "Yann Tiersen",
-          "year": 2001,
-          "popularity": 70
-        },
-        {
-          "name": "Heavenly",
-          "artist": "Cigarettes After Sex",
-          "year": 2019,
-          "popularity": 68
-        },
-        {
-          "name": "Samba Pa Ti",
-          "artist": "Santana",
-          "year": 1970,
-          "popularity": 64
-        },
-        {
-          "name": "One Summer Day",
-          "artist": "Joe Hisaishi",
-          "year": 2001,
-          "popularity": 64
-        },
-        {
-          "name": "Planet Caravan",
-          "artist": "Black Sabbath",
-          "year": 1970,
-          "popularity": 63
-        },
-        {
-          "name": "Master of None",
-          "artist": "Beach House",
-          "year": 2006,
-          "popularity": 63
-        },
-        {
-          "name": "Affection",
-          "artist": "Cigarettes After Sex",
-          "year": 2015,
-          "popularity": 63
-        },
-        {
-          "name": "Say You Wont Let Go",
-          "artist": "Ronald Emery",
-          "year": 2017,
-          "popularity": 63
-        },
-        {
-          "name": "Unchained Melody",
-          "artist": "Norah Jones",
-          "year": 2017,
-          "popularity": 63
-        },
-        {
-          "name": "Bodrum",
-          "artist": "Y\u00fczy\u00fczeyken Konu\u015furuz",
-          "year": 2018,
-          "popularity": 62
-        },
-        {
-          "name": "The Swan",
-          "artist": "Camille Saint-Sa\u00ebns",
-          "year": 2002,
-          "popularity": 61
-        },
-        {
-          "name": "A Whole New World - Aladdin",
-          "artist": "Rockabye Lullaby",
-          "year": 2011,
-          "popularity": 61
-        },
-        {
-          "name": "Baby",
-          "artist": "Ariel Pink",
-          "year": 2012,
-          "popularity": 60
-        },
-        {
-          "name": "Baby Blue",
-          "artist": "Kevin Kaarl",
-          "year": 2019,
-          "popularity": 59
-        },
-        {
-          "name": "29 #Strafford APTS",
-          "artist": "Bon Iver",
-          "year": 2016,
-          "popularity": 59
-        },
-        {
-          "name": "Symphonia IX",
-          "artist": "Current Joys",
-          "year": 2013,
-          "popularity": 59
-        },
-        {
-          "name": "A Lannister Always Pays His Debts",
-          "artist": "Ramin Djawadi",
-          "year": 2013,
-          "popularity": 59
-        }
-      ],
-      "cluster_id": 1,
-      "name": "Instrumental Meditations",
-      "tagline": "Quiet, acoustic, no vocals",
-      "description": "Defined almost entirely by instrumentalness (+2.64 SD, raw 0.81): tracks with essentially no sung vocal. Also the quietest tribe (-17.0 dB) and the most acoustic (0.81). Dominated by classical (36%) and jazz (28%): Bach, Mozart, Chopin, Beethoven, plus cool jazz and bebop.",
-      "naming_justification": "Instrumentalness is the single dominant axis, and the low energy/low loudness profile gives the contemplative character. This is the cluster the plan anticipated under exactly this name.",
-      "colour": "#17BEBB",
-      "silhouette": 0.094,
-      "radar": {
-        "danceability": 0.426,
-        "energy": 0.274,
-        "loudness": -16.969,
-        "speechiness": 0.058,
-        "acousticness": 0.81,
-        "instrumentalness": 0.81,
-        "liveness": 0.171,
-        "valence": 0.388,
-        "tempo": 108.699
-      },
-      "share_by_decade": {
-        "1920": 0.29130087789305664,
-        "1930": 0.2726045883940621,
-        "1940": 0.3961267605633803,
-        "1950": 0.2432838311363257,
-        "1960": 0.15029469548133595,
-        "1970": 0.07583027566092765,
-        "1980": 0.05212833770097032,
-        "1990": 0.05114704776231666,
-        "2000": 0.029800872885979268,
-        "2010": 0.03579467471863849,
-        "2020": 0.07557436517533253
-      },
-      "count_by_decade": {
-        "1920": 365,
-        "1930": 606,
-        "1940": 1125,
-        "1950": 1458,
-        "1960": 1224,
-        "1970": 806,
-        "1980": 736,
-        "1990": 952,
-        "2000": 437,
-        "2010": 652,
-        "2020": 250
-      }
-    },
-    {
-      "size": 6500,
-      "share": 0.065,
-      "mean_popularity": 27.85,
-      "mean_pop_z": -0.074,
+      "size": 6359,
+      "share": 0.0636,
+      "mean_popularity": 28.0,
+      "mean_pop_z": -0.053,
       "median_year": 1995,
+      "major_key_share": 0.675,
       "centroid_standardized": {
-        "danceability": -0.41,
-        "energy": 0.565,
-        "loudness": 0.314,
-        "speechiness": -0.057,
-        "acousticness": -0.261,
-        "instrumentalness": -0.089,
-        "liveness": 2.688,
-        "valence": -0.079,
-        "tempo": 0.121,
-        "duration_ms": 0.386,
-        "mode": 0.116,
-        "time_signature": 0.095
+        "danceability": -0.312,
+        "energy": 0.511,
+        "loudness": 0.289,
+        "speechiness": -0.056,
+        "acousticness": -0.192,
+        "instrumentalness": -0.144,
+        "liveness": 2.748,
+        "valence": 0.016,
+        "tempo": 0.058,
+        "duration_ms": 0.313
       },
       "centroid_raw_units": {
-        "danceability": 0.497,
-        "energy": 0.683,
-        "loudness": -8.643,
+        "danceability": 0.513,
+        "energy": 0.67,
+        "loudness": -8.77,
         "speechiness": 0.099,
-        "acousticness": 0.361,
-        "instrumentalness": 0.088,
-        "liveness": 0.713,
-        "valence": 0.533,
-        "tempo": 122.05,
-        "duration_ms": 278515.008,
-        "mode": 0.712,
-        "time_signature": 3.916
+        "acousticness": 0.385,
+        "instrumentalness": 0.074,
+        "liveness": 0.724,
+        "valence": 0.557,
+        "tempo": 120.168,
+        "duration_ms": 269131.281
       },
       "top_genres": [
         [
           "rock",
-          656
+          576
         ],
         [
           "classic rock",
-          498
+          467
         ],
         [
           "album rock",
-          421
+          383
         ],
         [
           "mellow gold",
-          343
-        ],
-        [
-          "hard rock",
-          292
+          336
         ],
         [
           "soft rock",
-          286
+          282
         ],
         [
           "filmi",
-          251
-        ],
-        [
-          "folk rock",
-          246
-        ],
-        [
-          "art rock",
-          243
+          277
         ],
         [
           "adult standards",
-          239
+          249
+        ],
+        [
+          "folk rock",
+          237
+        ],
+        [
+          "hard rock",
+          237
+        ],
+        [
+          "art rock",
+          220
         ]
       ],
       "top_genre_buckets": [
         [
-          "Rock / Metal",
-          0.302
+          "Pop",
+          0.308
         ],
         [
-          "Pop",
-          0.294
+          "Rock / Metal",
+          0.272
         ],
         [
           "Latin / World",
-          0.103
+          0.11
         ],
         [
           "Jazz / Standards",
-          0.1
+          0.107
         ],
         [
-          "Electronic / Dance",
-          0.066
+          "Hip-Hop / Rap",
+          0.06
         ]
       ],
       "top_decades": [
         [
           1990,
-          1302
+          1261
         ],
         [
           2010,
-          1252
+          1175
         ],
         [
           2000,
-          1141
+          1122
         ],
         [
           1980,
-          904
+          872
         ],
         [
           1970,
-          828
+          817
         ]
       ],
       "top_artists": [
         [
           "Die drei ???",
-          37
+          45
         ],
         [
           "Pink Floyd",
           28
         ],
         [
-          "Armin van Buuren",
+          "S. P. Balasubrahmanyam",
           22
+        ],
+        [
+          "TKKG Retro-Archiv",
+          20
+        ],
+        [
+          "Lata Mangeshkar",
+          20
         ],
         [
           "Bob Dylan",
@@ -1184,16 +169,8 @@
           18
         ],
         [
-          "S. P. Balasubrahmanyam",
-          18
-        ],
-        [
-          "Lata Mangeshkar",
-          18
-        ],
-        [
           "Mohammed Rafi",
-          17
+          18
         ],
         [
           "Elvis Presley",
@@ -1201,7 +178,7 @@
         ],
         [
           "Jorge & Mateus",
-          16
+          17
         ],
         [
           "The Rolling Stones",
@@ -1212,23 +189,19 @@
           15
         ],
         [
-          "Louis Armstrong",
+          "Armin van Buuren",
           15
-        ],
-        [
-          "TKKG Retro-Archiv",
-          14
         ],
         [
           "Asha Bhosle",
           14
         ],
         [
-          "Gilberto Gil",
-          13
+          "Louis Armstrong",
+          14
         ],
         [
-          "Depeche Mode",
+          "Juan Gabriel",
           13
         ],
         [
@@ -1236,163 +209,161 @@
           13
         ],
         [
-          "Oasis",
+          "P. Susheela",
           13
         ],
         [
           "Bob Marley & The Wailers",
           13
+        ],
+        [
+          "Gilberto Gil",
+          13
         ]
       ],
       "closest_songs": [
-        {
-          "name": "The Night They Drove Old Dixie Down - Live at LA Forum, Inglewood, CA - February 1974",
-          "artist": "Bob Dylan",
-          "year": 1974,
-          "popularity": 24,
-          "dist": 1.092
-        },
         {
           "name": "Lisdoonvarna",
           "artist": "Christy Moore",
           "year": 2017,
           "popularity": 45,
-          "dist": 1.124
-        },
-        {
-          "name": "40 Graus De Amor - Live From Olimpo,Rio De Janeiro,Brazil/2002",
-          "artist": "Exaltasamba",
-          "year": 2002,
-          "popularity": 32,
-          "dist": 1.187
-        },
-        {
-          "name": "Pout pourri: Escolta de vagalumes / Porta do mundo / Poeira da estrada",
-          "artist": "Rick & Renner",
-          "year": 2005,
-          "popularity": 52,
-          "dist": 1.192
+          "dist": 0.801
         },
         {
           "name": "Buon giorno amico mio",
           "artist": "Equipe 84",
           "year": 1970,
           "popularity": 22,
-          "dist": 1.21
+          "dist": 0.926
         },
         {
-          "name": "Palladium",
-          "artist": "Weather Report",
-          "year": 1977,
-          "popularity": 35,
-          "dist": 1.247
+          "name": "The Night They Drove Old Dixie Down - Live at LA Forum, Inglewood, CA - February 1974",
+          "artist": "Bob Dylan",
+          "year": 1974,
+          "popularity": 24,
+          "dist": 0.928
         },
         {
-          "name": "Bravo",
-          "artist": "Dalida",
-          "year": 1951,
-          "popularity": 2,
-          "dist": 1.255
+          "name": "Leve Com Voc\u00ea - Ao Vivo",
+          "artist": "Natiruts",
+          "year": 2014,
+          "popularity": 47,
+          "dist": 0.947
         },
         {
-          "name": "Statesboro Blues",
-          "artist": "Allman Brothers Band",
-          "year": 1971,
-          "popularity": 40,
-          "dist": 1.261
+          "name": "The Mercury Girl",
+          "artist": "The Cleaners From Venus",
+          "year": 1986,
+          "popularity": 32,
+          "dist": 0.951
         },
         {
-          "name": "Gamleskolen",
-          "artist": "Ole Ivars",
-          "year": 1999,
-          "popularity": 18,
-          "dist": 1.27
+          "name": "Pout pourri: Escolta de vagalumes / Porta do mundo / Poeira da estrada",
+          "artist": "Rick & Renner",
+          "year": 2005,
+          "popularity": 52,
+          "dist": 1.013
         },
         {
           "name": "The Night They Drove Old Dixie Down - Live",
           "artist": "Joan Baez",
           "year": 1976,
           "popularity": 24,
-          "dist": 1.279
-        },
-        {
-          "name": "\u00bfCu\u00e1nto Tiempo M\u00e1s Llevar\u00e1? - Live",
-          "artist": "Ser\u00fa Gir\u00e1n",
-          "year": 1982,
-          "popularity": 17,
-          "dist": 1.283
-        },
-        {
-          "name": "Hosanna",
-          "artist": "Exo",
-          "year": 1996,
-          "popularity": 26,
-          "dist": 1.292
+          "dist": 1.013
         },
         {
           "name": "Le chanteur",
           "artist": "Daniel Balavoine",
           "year": 1978,
           "popularity": 58,
-          "dist": 1.301
+          "dist": 1.013
         },
         {
-          "name": "Two Bass Hit - alternate take",
-          "artist": "Miles Davis",
-          "year": 1958,
-          "popularity": 25,
-          "dist": 1.308
+          "name": "Mensagem de Amor - Ao Vivo",
+          "artist": "Natiruts",
+          "year": 2014,
+          "popularity": 47,
+          "dist": 1.03
+        },
+        {
+          "name": "Signos - Remasterizada 2007",
+          "artist": "Soda Stereo",
+          "year": 1997,
+          "popularity": 46,
+          "dist": 1.034
+        },
+        {
+          "name": "Palladium",
+          "artist": "Weather Report",
+          "year": 1977,
+          "popularity": 35,
+          "dist": 1.043
+        },
+        {
+          "name": "Gamleskolen",
+          "artist": "Ole Ivars",
+          "year": 1999,
+          "popularity": 18,
+          "dist": 1.044
+        },
+        {
+          "name": "Bravo",
+          "artist": "Dalida",
+          "year": 1951,
+          "popularity": 2,
+          "dist": 1.053
+        },
+        {
+          "name": "Prigipessa - Live",
+          "artist": "Sokratis Malamas",
+          "year": 2007,
+          "popularity": 38,
+          "dist": 1.056
+        },
+        {
+          "name": "Na centr\u00e1lnom trhovisku",
+          "artist": "Lojzo",
+          "year": 1985,
+          "popularity": 15,
+          "dist": 1.059
         },
         {
           "name": "Chanson d'un jour d'\u00e9t\u00e9 - From \"Les demoiselles de Rochefort\"",
           "artist": "Anne Germain",
           "year": 1967,
           "popularity": 22,
-          "dist": 1.311
+          "dist": 1.078
         },
         {
-          "name": "Resimdeki G\u00f6zya\u015flar\u0131",
-          "artist": "Cem Karaca",
-          "year": 1998,
-          "popularity": 49,
-          "dist": 1.325
+          "name": "Hosanna",
+          "artist": "Exo",
+          "year": 1996,
+          "popularity": 26,
+          "dist": 1.079
         },
         {
-          "name": "New Kid in Town - Live; 1999 Remaster",
-          "artist": "Eagles",
-          "year": 1980,
-          "popularity": 41,
-          "dist": 1.329
+          "name": "Statesboro Blues",
+          "artist": "Allman Brothers Band",
+          "year": 1971,
+          "popularity": 40,
+          "dist": 1.08
         },
         {
-          "name": "Tu risa",
-          "artist": "Olga Manzano y Manuel Picon",
-          "year": 1979,
-          "popularity": 24,
-          "dist": 1.335
+          "name": "Slide Some Oil To Me / Now Watch Me Dance",
+          "artist": "Nipsey Russell",
+          "year": 1978,
+          "popularity": 26,
+          "dist": 1.092
         },
         {
-          "name": "El dorado",
-          "artist": "Revolver",
-          "year": 1997,
-          "popularity": 43,
-          "dist": 1.337
-        },
-        {
-          "name": "Summertime (Live)",
-          "artist": "Fatty George",
-          "year": 1970,
-          "popularity": 8,
-          "dist": 1.356
+          "name": "40 Graus De Amor - Live From Olimpo,Rio De Janeiro,Brazil/2002",
+          "artist": "Exaltasamba",
+          "year": 2002,
+          "popularity": 32,
+          "dist": 1.095
         }
       ],
       "showcase_songs": [
-        {
-          "name": "Save Your Tears",
-          "artist": "The Weeknd",
-          "year": 2020,
-          "popularity": 97
-        },
         {
           "name": "Rescue Me",
           "artist": "OneRepublic",
@@ -1400,28 +371,16 @@
           "popularity": 78
         },
         {
-          "name": "Radioactive",
-          "artist": "Imagine Dragons",
-          "year": 2012,
-          "popularity": 78
-        },
-        {
-          "name": "One Too Many",
-          "artist": "Keith Urban",
-          "year": 2020,
-          "popularity": 78
-        },
-        {
-          "name": "Numb / Encore",
-          "artist": "JAY-Z",
-          "year": 2004,
-          "popularity": 77
-        },
-        {
           "name": "Am I Wrong",
           "artist": "Nico & Vinz",
           "year": 2014,
           "popularity": 76
+        },
+        {
+          "name": "Bennie And The Jets - Remastered 2014",
+          "artist": "Elton John",
+          "year": 1973,
+          "popularity": 75
         },
         {
           "name": "Pierre",
@@ -1434,12 +393,6 @@
           "artist": "Grupo Firme",
           "year": 2019,
           "popularity": 73
-        },
-        {
-          "name": "Papercut",
-          "artist": "Linkin Park",
-          "year": 2000,
-          "popularity": 72
         },
         {
           "name": "Loco (Tu Forma de Ser) [Ft. Rub\u00e9n Albarr\u00e1n] - MTV Unplugged",
@@ -1496,620 +449,638 @@
           "popularity": 67
         },
         {
-          "name": "Perd\u00f3n, Perd\u00f3n - HA-ASH Primera Fila - Hecho Realidad [En Vivo]",
-          "artist": "Ha*Ash",
-          "year": 2014,
-          "popularity": 67
+          "name": "Thunder Road",
+          "artist": "Bruce Springsteen",
+          "year": 1975,
+          "popularity": 66
         },
         {
-          "name": "A Fila Anda - Ao Vivo",
-          "artist": "Thiaguinho",
-          "year": 2019,
-          "popularity": 67
+          "name": "Live Wire",
+          "artist": "M\u00f6tley Cr\u00fce",
+          "year": 1981,
+          "popularity": 66
+        },
+        {
+          "name": "La Boda",
+          "artist": "Aventura",
+          "year": 2005,
+          "popularity": 66
+        },
+        {
+          "name": "Let's Dance to Joy Division",
+          "artist": "The Wombats",
+          "year": 2007,
+          "popularity": 66
+        },
+        {
+          "name": "Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009",
+          "artist": "The Beatles",
+          "year": 1967,
+          "popularity": 65
+        },
+        {
+          "name": "Friend of the Devil",
+          "artist": "Grateful Dead",
+          "year": 1970,
+          "popularity": 65
         }
       ],
-      "cluster_id": 2,
+      "cluster_id": 0,
       "name": "Live on Stage",
       "tagline": "Concert and in-room recordings",
-      "description": "Separated on one axis: liveness +2.69 SD (raw 0.71), meaning audience presence detected in the recording. Otherwise energetic and loud, like the anthem tribes, and the longest tracks on average (4:39). Rock and pop live albums, long-form ragas and filmi performances.",
+      "description": "Separated on one axis: liveness +2.75 SD (raw 0.72), meaning an audience or room is audible in the recording. Otherwise energetic (0.67) and fairly loud (-8.8 dB), and the longest tracks of any tribe (4:29 on average). Live rock and pop albums (Pink Floyd, Bob Dylan, Queen, The Rolling Stones), long-form filmi and Arabic performances (Umm Kulthum), plus some radio-play episodes recorded in a live room.",
       "naming_justification": "A recording-context tribe rather than a sonic one: the defining feature is where the recording was made, not what was played. Named literally to avoid implying it is a genre.",
       "colour": "#2E4057",
-      "silhouette": 0.068,
+      "silhouette": 0.109,
       "radar": {
-        "danceability": 0.497,
-        "energy": 0.683,
-        "loudness": -8.651,
+        "danceability": 0.513,
+        "energy": 0.67,
+        "loudness": -8.775,
         "speechiness": 0.099,
-        "acousticness": 0.361,
-        "instrumentalness": 0.088,
-        "liveness": 0.713,
-        "valence": 0.533,
-        "tempo": 121.983
+        "acousticness": 0.385,
+        "instrumentalness": 0.074,
+        "liveness": 0.725,
+        "valence": 0.557,
+        "tempo": 120.171
       },
       "share_by_decade": {
-        "1920": 0.015163607342378291,
-        "1930": 0.03508771929824561,
-        "1940": 0.038028169014084505,
-        "1950": 0.037877523777740695,
-        "1960": 0.05771119842829077,
-        "1970": 0.07790008467400508,
-        "1980": 0.06402719739358312,
-        "1990": 0.06995110943963896,
-        "2000": 0.07780960174577196,
-        "2010": 0.068734559429042,
-        "2020": 0.05169286577992745
+        "1920": 0.01596169193934557,
+        "1930": 0.038236617183985605,
+        "1940": 0.0397887323943662,
+        "1950": 0.040547305189387615,
+        "1960": 0.06028978388998035,
+        "1970": 0.07686518016746637,
+        "1980": 0.061760747928323534,
+        "1990": 0.06774834792886691,
+        "2000": 0.0765139116202946,
+        "2010": 0.06450727422454021,
+        "2020": 0.04836759371221282
       },
       "count_by_decade": {
-        "1920": 19,
-        "1930": 78,
-        "1940": 108,
-        "1950": 227,
-        "1960": 470,
-        "1970": 828,
-        "1980": 904,
-        "1990": 1302,
-        "2000": 1141,
-        "2010": 1252,
-        "2020": 171
+        "1920": 20,
+        "1930": 85,
+        "1940": 113,
+        "1950": 243,
+        "1960": 491,
+        "1970": 817,
+        "1980": 872,
+        "1990": 1261,
+        "2000": 1122,
+        "2010": 1175,
+        "2020": 160
       }
     },
     {
-      "size": 24504,
-      "share": 0.245,
-      "mean_popularity": 22.38,
-      "mean_pop_z": -0.061,
-      "median_year": 1980,
+      "size": 21846,
+      "share": 0.2185,
+      "mean_popularity": 33.34,
+      "mean_pop_z": 0.041,
+      "median_year": 2002,
+      "major_key_share": 0.644,
       "centroid_standardized": {
-        "danceability": -0.521,
-        "energy": -0.978,
-        "loudness": -0.546,
-        "speechiness": -0.303,
-        "acousticness": 0.866,
-        "instrumentalness": -0.334,
-        "liveness": -0.253,
-        "valence": -0.622,
-        "tempo": -0.226,
-        "duration_ms": -0.049,
-        "mode": 0.192,
-        "time_signature": -0.243
+        "danceability": -0.419,
+        "energy": 0.8,
+        "loudness": 0.649,
+        "speechiness": -0.193,
+        "acousticness": -0.876,
+        "instrumentalness": -0.061,
+        "liveness": -0.161,
+        "valence": -0.319,
+        "tempo": 0.697,
+        "duration_ms": 0.146
       },
       "centroid_raw_units": {
-        "danceability": 0.478,
-        "energy": 0.296,
-        "loudness": -13.009,
-        "speechiness": 0.052,
-        "acousticness": 0.752,
-        "instrumentalness": 0.023,
-        "liveness": 0.168,
-        "valence": 0.393,
-        "tempo": 111.704,
-        "duration_ms": 222692.7,
-        "mode": 0.748,
-        "time_signature": 3.754
+        "danceability": 0.495,
+        "energy": 0.742,
+        "loudness": -6.941,
+        "speechiness": 0.073,
+        "acousticness": 0.147,
+        "instrumentalness": 0.095,
+        "liveness": 0.185,
+        "valence": 0.471,
+        "tempo": 139.221,
+        "duration_ms": 247690.947
       },
       "top_genres": [
         [
-          "adult standards",
-          2332
-        ],
-        [
-          "vocal jazz",
-          1338
-        ],
-        [
-          "lounge",
-          1284
-        ],
-        [
-          "mellow gold",
-          1007
-        ],
-        [
-          "classical",
-          1005
-        ],
-        [
-          "filmi",
-          1002
-        ],
-        [
-          "folk rock",
-          872
-        ],
-        [
-          "soul",
-          827
+          "rock",
+          2206
         ],
         [
           "classic rock",
-          822
+          1224
         ],
         [
-          "easy listening",
-          817
+          "album rock",
+          1188
+        ],
+        [
+          "hard rock",
+          1182
+        ],
+        [
+          "metal",
+          870
+        ],
+        [
+          "art rock",
+          728
+        ],
+        [
+          "j-pop",
+          682
+        ],
+        [
+          "mellow gold",
+          672
+        ],
+        [
+          "soft rock",
+          628
+        ],
+        [
+          "alternative metal",
+          563
         ]
       ],
       "top_genre_buckets": [
         [
-          "Pop",
-          0.378
-        ],
-        [
-          "Jazz / Standards",
-          0.206
-        ],
-        [
           "Rock / Metal",
-          0.12
+          0.38
         ],
         [
-          "Country / Folk",
-          0.106
+          "Pop",
+          0.338
+        ],
+        [
+          "Electronic / Dance",
+          0.095
+        ],
+        [
+          "Hip-Hop / Rap",
+          0.072
         ],
         [
           "Latin / World",
-          0.086
+          0.046
         ]
       ],
       "top_decades": [
         [
+          2010,
+          6404
+        ],
+        [
+          2000,
+          4583
+        ],
+        [
           1990,
-          3947
-        ],
-        [
-          1960,
-          3506
-        ],
-        [
-          1970,
-          3361
+          4416
         ],
         [
           1980,
-          3213
+          2822
         ],
         [
-          1950,
-          2914
+          1970,
+          1773
         ]
       ],
       "top_artists": [
         [
-          "Lata Mangeshkar",
-          185
-        ],
-        [
-          "Giuseppe Verdi",
-          141
-        ],
-        [
-          "Ella Fitzgerald",
-          129
-        ],
-        [
-          "Frank Sinatra",
-          123
-        ],
-        [
-          "Giacomo Puccini",
-          122
-        ],
-        [
-          "Francisco Canaro",
-          97
-        ],
-        [
-          "Johann Sebastian Bach",
-          95
-        ],
-        [
-          "Billie Holiday",
-          93
-        ],
-        [
-          "Wolfgang Amadeus Mozart",
-          86
-        ],
-        [
-          "Dean Martin",
-          74
-        ],
-        [
-          "Mohammed Rafi",
-          60
-        ],
-        [
-          "Kishore Kumar",
-          57
-        ],
-        [
-          "Elvis Presley",
-          53
-        ],
-        [
-          "Javier Sol\u00eds",
-          53
-        ],
-        [
-          "Doris Day",
-          48
-        ],
-        [
-          "Asha Bhosle",
-          48
-        ],
-        [
-          "Nat King Cole",
+          "Armin van Buuren",
           47
         ],
         [
-          "Ignacio Corsini",
-          46
+          "Deep Purple",
+          37
         ],
         [
-          "Miles Davis",
-          46
+          "Metallica",
+          33
         ],
         [
-          "Julie London",
-          44
+          "Black Sabbath",
+          31
+        ],
+        [
+          "Ramones",
+          31
+        ],
+        [
+          "Die drei ???",
+          30
+        ],
+        [
+          "Oasis",
+          30
+        ],
+        [
+          "The Rolling Stones",
+          26
+        ],
+        [
+          "Grazhdanskaya Oborona",
+          25
+        ],
+        [
+          "The Who",
+          24
+        ],
+        [
+          "Extremoduro",
+          24
+        ],
+        [
+          "Queen",
+          24
+        ],
+        [
+          "U2",
+          24
+        ],
+        [
+          "Genesis",
+          23
+        ],
+        [
+          "Mot\u00f6rhead",
+          22
+        ],
+        [
+          "Wings",
+          22
+        ],
+        [
+          "Andre Hazes",
+          21
+        ],
+        [
+          "SPITZ",
+          21
+        ],
+        [
+          "David Bowie",
+          21
+        ],
+        [
+          "Ten Years After",
+          21
         ]
       ],
       "closest_songs": [
         {
-          "name": "\u30eb\u30fc\u30e0\u30fb\u30e9\u30a4\u30c8",
-          "artist": "Saori Yuki",
-          "year": 1987,
-          "popularity": 18,
-          "dist": 0.918
+          "name": "This Is What Makes Us Girls",
+          "artist": "Lana Del Rey",
+          "year": 2012,
+          "popularity": 57,
+          "dist": 0.57
         },
         {
-          "name": "The Night Visiting Song",
-          "artist": "Luke Kelly",
-          "year": 2008,
+          "name": "\u80cc\u4f34",
+          "artist": "\u9673\u5353\u8ce2 Ian",
+          "year": 2020,
+          "popularity": 43,
+          "dist": 0.598
+        },
+        {
+          "name": "Myth",
+          "artist": "Beach House",
+          "year": 2012,
+          "popularity": 62,
+          "dist": 0.602
+        },
+        {
+          "name": "\u0e22\u0e31\u0e07\u0e44\u0e01\u0e25",
+          "artist": "Boy Peacemaker",
+          "year": 2016,
           "popularity": 37,
-          "dist": 0.918
+          "dist": 0.608
         },
         {
-          "name": "Helpless",
-          "artist": "Crosby, Stills, Nash & Young",
-          "year": 1970,
+          "name": "En Apesanteur - Single Version",
+          "artist": "Calogero",
+          "year": 2002,
           "popularity": 58,
-          "dist": 0.932
+          "dist": 0.639
         },
         {
-          "name": "East Of The Sun",
-          "artist": "Frank Sinatra",
-          "year": 1961,
-          "popularity": 20,
-          "dist": 0.943
+          "name": "Bitti Tebrikler",
+          "artist": "emre ayd\u0131n",
+          "year": 2013,
+          "popularity": 44,
+          "dist": 0.651
         },
         {
-          "name": "La source",
-          "artist": "Isabelle Aubret",
-          "year": 1973,
-          "popularity": 22,
-          "dist": 0.948
+          "name": "Black Dahlia",
+          "artist": "Hollywood Undead",
+          "year": 2008,
+          "popularity": 54,
+          "dist": 0.694
         },
         {
-          "name": "Anoche Estuve Llorando",
-          "artist": "Aldo Monges",
-          "year": 1977,
-          "popularity": 17,
-          "dist": 0.959
+          "name": "Never Once",
+          "artist": "Matt Redman",
+          "year": 2012,
+          "popularity": 45,
+          "dist": 0.695
         },
         {
-          "name": "S' Akoloutho",
-          "artist": "Manos Loizos",
-          "year": 1980,
-          "popularity": 11,
-          "dist": 0.961
+          "name": "La Flotadera",
+          "artist": "Hello Seahorse!",
+          "year": 2012,
+          "popularity": 47,
+          "dist": 0.704
         },
         {
-          "name": "Armistice Day",
-          "artist": "Paul Simon",
-          "year": 1972,
-          "popularity": 34,
-          "dist": 0.969
+          "name": "Way Back Home - Original",
+          "artist": "Bag Raiders",
+          "year": 2011,
+          "popularity": 48,
+          "dist": 0.718
         },
         {
-          "name": "To Kiparissaki",
-          "artist": "Manos Hadjidakis",
-          "year": 1983,
-          "popularity": 13,
-          "dist": 0.977
+          "name": "\u05e0\u05d5\u05d1\u05de\u05d1\u05e8",
+          "artist": "Ethnix",
+          "year": 1996,
+          "popularity": 9,
+          "dist": 0.725
         },
         {
-          "name": "Masih Ada",
-          "artist": "Warna",
-          "year": 2003,
-          "popularity": 36,
-          "dist": 0.978
+          "name": "\u9084\u4f60\u9580\u5319",
+          "artist": "Shawn Yue",
+          "year": 2010,
+          "popularity": 29,
+          "dist": 0.727
         },
         {
-          "name": "Sweet Jesus",
-          "artist": "Barclay James Harvest",
-          "year": 1975,
-          "popularity": 20,
-          "dist": 0.979
-        },
-        {
-          "name": "Je voudrais tant que tu sois l\u00e0",
-          "artist": "Serge Lama",
-          "year": 1998,
-          "popularity": 30,
-          "dist": 1.002
-        },
-        {
-          "name": "Bedtime Story",
-          "artist": "Tammy Wynette",
-          "year": 1964,
-          "popularity": 14,
-          "dist": 1.015
-        },
-        {
-          "name": "Venus",
-          "artist": "Sam Cooke",
-          "year": 1960,
+          "name": "Reflexion",
+          "artist": "Se\u00f1or Loop",
+          "year": 2008,
           "popularity": 18,
-          "dist": 1.021
+          "dist": 0.729
         },
         {
-          "name": "Campesina Santandereana",
-          "artist": "Hermanos Mart\u00ednez",
-          "year": 1991,
-          "popularity": 26,
-          "dist": 1.026
+          "name": "Batacanda",
+          "artist": "Cargo",
+          "year": 1998,
+          "popularity": 9,
+          "dist": 0.729
         },
         {
-          "name": "Canci\u00f3n para Ti",
-          "artist": "Frank Quintero",
-          "year": 1980,
-          "popularity": 35,
-          "dist": 1.027
+          "name": "Paris",
+          "artist": "La Oreja de Van Gogh",
+          "year": 2000,
+          "popularity": 60,
+          "dist": 0.729
         },
         {
-          "name": "\u746a\u740d\u4e9e",
-          "artist": "\u5c24\u96c5",
-          "year": 1970,
-          "popularity": 5,
-          "dist": 1.028
+          "name": "\u518d\u898b\u6211\u7684\u611b",
+          "artist": "\u6afb\u6843\u5e6b",
+          "year": 2006,
+          "popularity": 36,
+          "dist": 0.73
         },
         {
-          "name": "Don't Go Near The Water - Remastered 2009",
-          "artist": "The Beach Boys",
-          "year": 1971,
-          "popularity": 34,
-          "dist": 1.028
+          "name": "Full Moons and Mouths",
+          "artist": "Martin Dupont",
+          "year": 1987,
+          "popularity": 21,
+          "dist": 0.731
         },
         {
-          "name": "Quando nasce un amore",
-          "artist": "Anna Oxa",
-          "year": 1988,
-          "popularity": 52,
-          "dist": 1.03
+          "name": "Ruin By The Selling Out",
+          "artist": "Butterfingers",
+          "year": 1997,
+          "popularity": 17,
+          "dist": 0.733
         },
         {
-          "name": "\u7b11\ue08d\u5c31\u7b97",
-          "artist": "Sam Hui",
-          "year": 1981,
-          "popularity": 7,
-          "dist": 1.033
+          "name": "Pandangi Langit Malam Ini",
+          "artist": "Jikustik",
+          "year": 2005,
+          "popularity": 39,
+          "dist": 0.741
+        },
+        {
+          "name": "Lo Stesso Viso",
+          "artist": "Luche",
+          "year": 2016,
+          "popularity": 42,
+          "dist": 0.753
         }
       ],
       "showcase_songs": [
         {
-          "name": "SLOW DANCING IN THE DARK",
-          "artist": "Joji",
-          "year": 2018,
-          "popularity": 85
-        },
-        {
-          "name": "Love Is Gone - Acoustic",
-          "artist": "SLANDER",
-          "year": 2019,
-          "popularity": 84
-        },
-        {
-          "name": "Runaway",
-          "artist": "AURORA",
-          "year": 2016,
-          "popularity": 84
-        },
-        {
-          "name": "Unstable (feat. The Kid LAROI)",
-          "artist": "Justin Bieber",
-          "year": 2021,
-          "popularity": 84
+          "name": "Paradise (feat. Dermot Kennedy)",
+          "artist": "MEDUZA",
+          "year": 2020,
+          "popularity": 92
         },
         {
           "name": "Hold On",
-          "artist": "Chord Overstreet",
-          "year": 2017,
+          "artist": "Justin Bieber",
+          "year": 2021,
+          "popularity": 92
+        },
+        {
+          "name": "UN DIA (ONE DAY) (Feat. Tainy)",
+          "artist": "J Balvin",
+          "year": 2020,
+          "popularity": 87
+        },
+        {
+          "name": "Call Out My Name",
+          "artist": "The Weeknd",
+          "year": 2018,
           "popularity": 83
         },
         {
-          "name": "Happiest Year",
-          "artist": "Jaymes Young",
-          "year": 2019,
-          "popularity": 82
+          "name": "I Fall Apart",
+          "artist": "Post Malone",
+          "year": 2016,
+          "popularity": 83
         },
         {
-          "name": "Too Good At Goodbyes",
-          "artist": "Sam Smith",
-          "year": 2017,
-          "popularity": 82
-        },
-        {
-          "name": "Someone Like You",
-          "artist": "Adele",
+          "name": "Tongue Tied",
+          "artist": "Grouplove",
           "year": 2011,
-          "popularity": 80
+          "popularity": 83
         },
         {
-          "name": "Beautiful Crazy",
-          "artist": "Luke Combs",
+          "name": "Lasting Lover",
+          "artist": "Sigala",
+          "year": 2020,
+          "popularity": 83
+        },
+        {
+          "name": "Acaso",
+          "artist": "Vitor Fernandes",
+          "year": 2020,
+          "popularity": 83
+        },
+        {
+          "name": "Blood // Water",
+          "artist": "grandson",
           "year": 2018,
+          "popularity": 82
+        },
+        {
+          "name": "Shut Up and Dance",
+          "artist": "WALK THE MOON",
+          "year": 2014,
+          "popularity": 82
+        },
+        {
+          "name": "505",
+          "artist": "Arctic Monkeys",
+          "year": 2007,
+          "popularity": 81
+        },
+        {
+          "name": "Waiting For Love",
+          "artist": "Avicii",
+          "year": 2015,
+          "popularity": 81
+        },
+        {
+          "name": "Heartless",
+          "artist": "The Weeknd",
+          "year": 2020,
+          "popularity": 81
+        },
+        {
+          "name": "Enter Sandman",
+          "artist": "Metallica",
+          "year": 1991,
           "popularity": 80
         },
         {
-          "name": "Pluto Projector",
-          "artist": "Rex Orange County",
-          "year": 2019,
+          "name": "Sugar, We're Goin Down",
+          "artist": "Fall Out Boy",
+          "year": 2005,
           "popularity": 80
         },
         {
-          "name": "my future",
-          "artist": "Billie Eilish",
+          "name": "Scared to Be Lonely",
+          "artist": "Martin Garrix",
+          "year": 2017,
+          "popularity": 80
+        },
+        {
+          "name": "Fake A Smile",
+          "artist": "Alan Walker",
+          "year": 2021,
+          "popularity": 80
+        },
+        {
+          "name": "bloody valentine",
+          "artist": "Machine Gun Kelly",
           "year": 2020,
           "popularity": 80
         },
         {
-          "name": "White Dress",
-          "artist": "Lana Del Rey",
-          "year": 2021,
-          "popularity": 78
-        },
-        {
-          "name": "this is how you fall in love",
-          "artist": "Jeremy Zucker",
-          "year": 2021,
-          "popularity": 77
-        },
-        {
-          "name": "Rise Up",
-          "artist": "Andra Day",
-          "year": 2015,
-          "popularity": 76
-        },
-        {
-          "name": "I",
-          "artist": "Lil Skies",
-          "year": 2019,
-          "popularity": 76
-        },
-        {
-          "name": "From the Dining Table",
-          "artist": "Harry Styles",
-          "year": 2017,
-          "popularity": 76
-        },
-        {
-          "name": "Empire State of Mind (Part II) Broken Down",
-          "artist": "Alicia Keys",
-          "year": 2009,
-          "popularity": 75
-        },
-        {
-          "name": "Bloom - Bonus Track",
-          "artist": "The Paper Kites",
+          "name": "Heart Attack",
+          "artist": "Demi Lovato",
           "year": 2013,
-          "popularity": 75
+          "popularity": 79
         },
         {
-          "name": "Corduroy Dreams",
-          "artist": "Rex Orange County",
-          "year": 2016,
-          "popularity": 75
-        },
-        {
-          "name": "Want It Again",
-          "artist": "Thomas Rhett",
-          "year": 2021,
-          "popularity": 75
+          "name": "Meant to Be (feat. Florida Georgia Line)",
+          "artist": "Bebe Rexha",
+          "year": 2017,
+          "popularity": 79
         }
       ],
-      "cluster_id": 3,
-      "name": "Acoustic Storytellers",
-      "tagline": "Soft, acoustic, vocal-led, melancholy",
-      "description": "Low energy (0.30), high acousticness (0.75), quiet (-13.0 dB), low valence (0.39), but near-zero instrumentalness - a singer is present. Vocal jazz, adult standards, lounge, soul and ballads: Sinatra, Ella Fitzgerald, Billie Holiday, Lata Mangeshkar, alongside modern acoustic ballads.",
-      "naming_justification": "The pairing of high acousticness with low instrumentalness means 'acoustic backing plus a voice'; the low valence gives the reflective, narrative character.",
-      "colour": "#F3A712",
-      "silhouette": 0.128,
+      "cluster_id": 1,
+      "name": "High-Voltage Anthems",
+      "tagline": "Loud, fast, electric and intense",
+      "description": "The highest-energy tribe: energy 0.74 (+0.80 SD), loudness -6.9 dB (+0.65 SD), the fastest tempo (139 BPM, +0.70 SD) and almost no acoustic sound (acousticness 0.15, -0.88 SD). Valence and danceability sit below average, so this is drive rather than groove. Rock and metal (38%) and pop (34%) dominate, with the most electronic music of any tribe (9.5%): Metallica, Deep Purple, Black Sabbath, Ramones, Oasis, Armin van Buuren. The most recent tribe (median year 2002).",
+      "naming_justification": "Named for the combination of maximum energy, loudness and tempo with low acousticness - the 'electric' end of recorded music. 'Anthems' reflects the loud, full-band or full-mix production, and the lower valence separates it from the brighter Sunlit Grooves.",
+      "colour": "#4C9F70",
+      "silhouette": 0.1,
       "radar": {
-        "danceability": 0.478,
-        "energy": 0.296,
-        "loudness": -13.009,
-        "speechiness": 0.052,
-        "acousticness": 0.752,
-        "instrumentalness": 0.023,
-        "liveness": 0.168,
-        "valence": 0.393,
-        "tempo": 111.707
+        "danceability": 0.495,
+        "energy": 0.743,
+        "loudness": -6.936,
+        "speechiness": 0.073,
+        "acousticness": 0.147,
+        "instrumentalness": 0.095,
+        "liveness": 0.185,
+        "valence": 0.472,
+        "tempo": 139.147
       },
       "share_by_decade": {
-        "1920": 0.2841181165203512,
-        "1930": 0.398110661268556,
-        "1940": 0.42464788732394365,
-        "1950": 0.48623393959619554,
-        "1960": 0.4305009823182711,
-        "1970": 0.31621036786151097,
-        "1980": 0.22756569162121965,
-        "1990": 0.21205608982968893,
-        "2000": 0.1545962902345881,
-        "2010": 0.13933571232500686,
-        "2020": 0.09401451027811367
+        "1920": 0.011971268954509178,
+        "1930": 0.025191183085919926,
+        "1940": 0.01584507042253521,
+        "1950": 0.021691973969631236,
+        "1960": 0.07797151277013753,
+        "1970": 0.1668077900084674,
+        "1980": 0.19987251221757915,
+        "1990": 0.2372535324773008,
+        "2000": 0.31253409710856517,
+        "2010": 0.3515783694757068,
+        "2020": 0.2923216444981862
       },
       "count_by_decade": {
-        "1920": 356,
-        "1930": 885,
-        "1940": 1206,
-        "1950": 2914,
-        "1960": 3506,
-        "1970": 3361,
-        "1980": 3213,
-        "1990": 3947,
-        "2000": 2267,
-        "2010": 2538,
-        "2020": 311
+        "1920": 15,
+        "1930": 56,
+        "1940": 45,
+        "1950": 130,
+        "1960": 635,
+        "1970": 1773,
+        "1980": 2822,
+        "1990": 4416,
+        "2000": 4583,
+        "2010": 6404,
+        "2020": 967
       }
     },
     {
       "size": 4820,
       "share": 0.0482,
-      "mean_popularity": 20.1,
-      "mean_pop_z": -0.082,
+      "mean_popularity": 20.16,
+      "mean_pop_z": -0.08,
       "median_year": 1981,
+      "major_key_share": 0.665,
       "centroid_standardized": {
-        "danceability": 0.611,
-        "energy": -0.573,
+        "danceability": 0.614,
+        "energy": -0.575,
         "loudness": -1.055,
-        "speechiness": 4.042,
-        "acousticness": 0.517,
-        "instrumentalness": -0.406,
-        "liveness": 0.873,
-        "valence": 0.044,
-        "tempo": -0.552,
-        "duration_ms": -0.637,
-        "mode": 0.021,
-        "time_signature": -0.739
+        "speechiness": 4.048,
+        "acousticness": 0.516,
+        "instrumentalness": -0.405,
+        "liveness": 0.869,
+        "valence": 0.045,
+        "tempo": -0.549,
+        "duration_ms": -0.623
       },
       "centroid_raw_units": {
-        "danceability": 0.666,
+        "danceability": 0.667,
         "energy": 0.397,
         "loudness": -15.599,
-        "speechiness": 0.869,
+        "speechiness": 0.87,
         "acousticness": 0.631,
         "instrumentalness": 0.004,
-        "liveness": 0.377,
-        "valence": 0.564,
-        "tempo": 101.999,
-        "duration_ms": 147431.131,
-        "mode": 0.667,
-        "time_signature": 3.516
+        "liveness": 0.376,
+        "valence": 0.565,
+        "tempo": 102.087,
+        "duration_ms": 149234.513
       },
       "top_genres": [
         [
           "hoerspiel",
-          1818
+          1819
         ],
         [
           "kleine hoerspiel",
-          825
+          824
         ],
         [
           "barnsagor",
-          304
+          305
         ],
         [
           "reading",
@@ -2117,7 +1088,7 @@
         ],
         [
           "barnmusik",
-          107
+          106
         ],
         [
           "kindermusik",
@@ -2136,14 +1107,14 @@
           39
         ],
         [
-          "guidance",
+          "motivation",
           38
         ]
       ],
       "top_genre_buckets": [
         [
           "Spoken Word",
-          0.849
+          0.85
         ],
         [
           "Pop",
@@ -2151,59 +1122,59 @@
         ],
         [
           "Rock / Metal",
-          0.026
+          0.027
         ],
         [
           "Country / Folk",
           0.023
         ],
         [
-          "Jazz / Standards",
-          0.015
+          "Hip-Hop / Rap",
+          0.016
         ]
       ],
       "top_decades": [
         [
           1980,
-          1537
+          1534
         ],
         [
           1990,
-          893
+          900
         ],
         [
           1970,
-          644
+          638
         ],
         [
           1950,
-          394
+          392
         ],
         [
           1920,
-          360
+          358
         ]
       ],
       "top_artists": [
         [
           "Die drei ???",
-          622
+          623
         ],
         [
           "TKKG Retro-Archiv",
-          350
+          348
         ],
         [
           "Benjamin Bl\u00fcmchen",
-          280
+          282
         ],
         [
           "Bibi Blocksberg",
-          254
+          253
         ],
         [
           "Tintin",
-          172
+          173
         ],
         [
           "Tadeusz Dolega Mostowicz",
@@ -2215,7 +1186,7 @@
         ],
         [
           "F\u00fcnf Freunde",
-          150
+          148
         ],
         [
           "Bibi und Tina",
@@ -2227,7 +1198,7 @@
         ],
         [
           "Globi",
-          97
+          99
         ],
         [
           "Janusz Korczak",
@@ -2268,159 +1239,147 @@
       ],
       "closest_songs": [
         {
+          "name": "Kapitel 06 - Alle lieben Knuddel (Folge 016)",
+          "artist": "Bibi und Tina",
+          "year": 1993,
+          "popularity": 34,
+          "dist": 0.63
+        },
+        {
+          "name": "Michel bringt die Welt in Ordnung - Teil 24",
+          "artist": "Michel",
+          "year": 1989,
+          "popularity": 25,
+          "dist": 0.737
+        },
+        {
+          "name": "Kapitel 10 - Die Hexenschule (Folge 071)",
+          "artist": "Bibi Blocksberg",
+          "year": 1999,
+          "popularity": 32,
+          "dist": 0.775
+        },
+        {
+          "name": "Michel bringt die Welt in Ordnung - Teil 12",
+          "artist": "Michel",
+          "year": 1989,
+          "popularity": 26,
+          "dist": 0.806
+        },
+        {
           "name": "S' gaat wiiter mit Us em Hotel B\u00f6gli wird's Hotel Globi",
           "artist": "Globi",
           "year": 1998,
           "popularity": 17,
-          "dist": 1.477
+          "dist": 0.821
+        },
+        {
+          "name": "105 - Der Nebelberg - Teil 31",
+          "artist": "Die drei ???",
+          "year": 2002,
+          "popularity": 36,
+          "dist": 0.898
+        },
+        {
+          "name": "Kapitel 17 - Das Wettfliegen (Folge 065)",
+          "artist": "Bibi Blocksberg",
+          "year": 1996,
+          "popularity": 30,
+          "dist": 0.92
+        },
+        {
+          "name": "Kapitel 05 - Der Pferdegeburtstag (Folge 027)",
+          "artist": "Bibi und Tina",
+          "year": 1996,
+          "popularity": 33,
+          "dist": 0.921
         },
         {
           "name": "069 - Sp\u00e4te Rache - Teil 20",
           "artist": "Die drei ???",
           "year": 1996,
           "popularity": 36,
-          "dist": 1.535
+          "dist": 0.928
         },
         {
           "name": "Kapitel 02 - Die Osterferien (Folge 026)",
           "artist": "Bibi und Tina",
           "year": 1996,
           "popularity": 40,
-          "dist": 1.539
+          "dist": 0.928
         },
         {
-          "name": "Kapitel 22: Der K\u00f6nig der L\u00f6wen",
-          "artist": "Disney - Der K\u00f6nig der L\u00f6wen",
-          "year": 1997,
-          "popularity": 38,
-          "dist": 1.547
-        },
-        {
-          "name": "Kapitel 09 - und die Piraten (Folge 068)",
+          "name": "Kapitel 21 - Die neue Schule (Folge 064)",
           "artist": "Bibi Blocksberg",
-          "year": 1998,
+          "year": 1995,
           "popularity": 33,
-          "dist": 1.568
-        },
-        {
-          "name": "Momo - Teil 18",
-          "artist": "Michael Ende",
-          "year": 1975,
-          "popularity": 24,
-          "dist": 1.571
+          "dist": 0.932
         },
         {
           "name": "Kapitel 8 - Pocahontas",
           "artist": "Disney - Pocahontas",
           "year": 1997,
           "popularity": 33,
-          "dist": 1.591
+          "dist": 0.939
         },
         {
-          "name": "Kapitel 18 - Papis Pony (Folge 011)",
-          "artist": "Bibi und Tina",
-          "year": 1992,
-          "popularity": 36,
-          "dist": 1.592
+          "name": "Kapitel 316 - Die drei Ehen der Grand Sophy",
+          "artist": "Georgette Heyer",
+          "year": 1950,
+          "popularity": 2,
+          "dist": 0.942
         },
         {
-          "name": "Kapitel 10 - Die Lippizaner (Folge 018)",
-          "artist": "Bibi und Tina",
-          "year": 1994,
-          "popularity": 34,
-          "dist": 1.605
+          "name": "Kapitel 18 - und das Osterfest (Folge 033)",
+          "artist": "Benjamin Bl\u00fcmchen",
+          "year": 1983,
+          "popularity": 35,
+          "dist": 0.943
+        },
+        {
+          "name": "Kapitel 22: Der K\u00f6nig der L\u00f6wen",
+          "artist": "Disney - Der K\u00f6nig der L\u00f6wen",
+          "year": 1997,
+          "popularity": 38,
+          "dist": 0.946
         },
         {
           "name": "025 - Die Stunde der schwarzen Maske - Teil 05",
           "artist": "TKKG Retro-Archiv",
           "year": 1982,
           "popularity": 29,
-          "dist": 1.606
+          "dist": 0.968
         },
         {
-          "name": "De Globi gw\u00fcnnt en Troschtpriis",
-          "artist": "Globi",
-          "year": 1995,
-          "popularity": 18,
-          "dist": 1.612
-        },
-        {
-          "name": "Kapitel 11 - Das Schmusepony (Folge 032)",
-          "artist": "Bibi und Tina",
-          "year": 1998,
-          "popularity": 32,
-          "dist": 1.619
-        },
-        {
-          "name": "06 - Heidi kehrt zur\u00fcck - Teil 10",
-          "artist": "Heidi",
-          "year": 1978,
-          "popularity": 17,
-          "dist": 1.623
-        },
-        {
-          "name": "Kapitel 01 - Der gro\u00dfe Bruder (Folge 019)",
+          "name": "Kapitel 10 - Die Lippizaner (Folge 018)",
           "artist": "Bibi und Tina",
           "year": 1994,
-          "popularity": 36,
-          "dist": 1.624
+          "popularity": 34,
+          "dist": 0.969
         },
         {
-          "name": "Kapitel 01 - als Bademeister (Folge 026)",
-          "artist": "Benjamin Bl\u00fcmchen",
-          "year": 1983,
-          "popularity": 30,
-          "dist": 1.629
-        },
-        {
-          "name": "Kapitel 24 - Mikosch kehrt zur\u00fcck (Folge 022)",
+          "name": "Kapitel 24 - Das Weihnachtsfest (Folge 025)",
           "artist": "Bibi und Tina",
           "year": 1995,
-          "popularity": 32,
-          "dist": 1.634
+          "popularity": 34,
+          "dist": 0.971
         },
         {
-          "name": "Kapitel 05 - Der Superhexspruch (Folge 053)",
-          "artist": "Bibi Blocksberg",
-          "year": 1992,
-          "popularity": 35,
-          "dist": 1.634
+          "name": "105 - Der Nebelberg - Teil 04",
+          "artist": "Die drei ???",
+          "year": 2002,
+          "popularity": 37,
+          "dist": 0.971
         },
         {
-          "name": "Kapitel 01 - Alex und das Internat (Folge 033)",
-          "artist": "Bibi und Tina",
-          "year": 1998,
-          "popularity": 35,
-          "dist": 1.634
-        },
-        {
-          "name": "Kapitel 12 - und das Osterfest (Folge 033)",
-          "artist": "Benjamin Bl\u00fcmchen",
-          "year": 1983,
-          "popularity": 36,
-          "dist": 1.637
-        },
-        {
-          "name": "Chapter 119 - The Unlit Lamp",
-          "artist": "Radclyffe Hall",
-          "year": 1924,
-          "popularity": 0,
-          "dist": 1.651
+          "name": "Kapitel 12: Der K\u00f6nig der L\u00f6wen 2 - Simbas K\u00f6nigreich",
+          "artist": "Disney - Der K\u00f6nig der L\u00f6wen",
+          "year": 1999,
+          "popularity": 34,
+          "dist": 0.975
         }
       ],
       "showcase_songs": [
-        {
-          "name": "Wieder am Block",
-          "artist": "Haftbefehl",
-          "year": 2021,
-          "popularity": 67
-        },
-        {
-          "name": "Du",
-          "artist": "Zate",
-          "year": 2017,
-          "popularity": 55
-        },
         {
           "name": "011 - und das Gespensterschloss - Teil 33",
           "artist": "Die drei ???",
@@ -2440,16 +1399,16 @@
           "popularity": 47
         },
         {
-          "name": "Pumuckl und die Angst - Teil 01",
-          "artist": "Pumuckl",
-          "year": 1983,
-          "popularity": 45
+          "name": "Kapitel 02: Aladdin",
+          "artist": "Disney - Aladdin",
+          "year": 2002,
+          "popularity": 43
         },
         {
-          "name": "005 - und der Fluch des Rubins - Teil 05",
-          "artist": "Die drei ???",
-          "year": 1979,
-          "popularity": 44
+          "name": "02 - Azuro startet durch - Teil 01",
+          "artist": "Kati & Azuro",
+          "year": 2011,
+          "popularity": 43
         },
         {
           "name": "Bakerguttens Pepperkakebakersang",
@@ -2464,9 +1423,15 @@
           "popularity": 43
         },
         {
-          "name": "Var \u00e4r Bus-Alfons? - Pt. 1",
-          "artist": "Alfons \u00c5berg",
-          "year": 1991,
+          "name": "Soul - Hidden Track",
+          "artist": "Sam Cooke",
+          "year": 1960,
+          "popularity": 42
+        },
+        {
+          "name": "001 - und der Super-Papagei - Teil 02",
+          "artist": "Die drei ???",
+          "year": 1979,
           "popularity": 42
         },
         {
@@ -2476,10 +1441,10 @@
           "popularity": 42
         },
         {
-          "name": "003 - und der Karpatenhund - Teil 15",
-          "artist": "Die drei ???",
-          "year": 1979,
-          "popularity": 41
+          "name": "Conni im Krankenhaus - Teil 08",
+          "artist": "Conni",
+          "year": 2003,
+          "popularity": 42
         },
         {
           "name": "001 - und der Super-Papagei - Teil 26",
@@ -2506,12 +1471,6 @@
           "popularity": 41
         },
         {
-          "name": "001 - und der Super-Papagei - Teil 18",
-          "artist": "Die drei ???",
-          "year": 1979,
-          "popularity": 41
-        },
-        {
           "name": "Kapitel 23 - Das Fohlen (Folge 001)",
           "artist": "Bibi und Tina",
           "year": 1991,
@@ -2528,409 +1487,1446 @@
           "artist": "Disney - Mulan",
           "year": 1998,
           "popularity": 41
+        },
+        {
+          "name": "Kapitel 02 - Das verhexte Osterei (Folge 066)",
+          "artist": "Bibi Blocksberg",
+          "year": 1997,
+          "popularity": 41
+        },
+        {
+          "name": "Der R\u00e4uber Hotzenplotz - Teil 02",
+          "artist": "Otfried Preu\u00dfler",
+          "year": 2008,
+          "popularity": 41
         }
       ],
-      "cluster_id": 4,
+      "cluster_id": 2,
       "name": "Spoken Word & Audio Drama",
       "tagline": "Talk, not music",
-      "description": "The cleanest tribe in the model: speechiness +4.04 SD (raw 0.87), short tracks (2:27), quiet and irregular in metre. 85% of its labelled tracks carry a spoken-word genre - German Hoerspiel series (Die drei ???, Benjamin Bluemchen, Bibi Blocksberg), Scandinavian barnsagor, audiobook chapters.",
-      "naming_justification": "Highest internal silhouette (0.23) and highest genre purity (85%). Named for content type because the cluster is not music at all - it is serialised audio fiction that happens to be distributed on Spotify.",
+      "description": "The cleanest tribe in the model: speechiness +4.05 SD (raw 0.87), short tracks (2:29), quiet (-15.6 dB). 85% of its labelled tracks carry a spoken-word genre - German Hoerspiel series (Die drei ???, TKKG, Benjamin Bluemchen, Bibi Blocksberg), Scandinavian barnsagor, audiobook chapters.",
+      "naming_justification": "Highest genre purity of any tribe (85%). Named for content type because the cluster is not music at all - it is serialised audio fiction that happens to be distributed on Spotify.",
       "colour": "#7B2D8E",
-      "silhouette": 0.233,
+      "silhouette": 0.358,
       "radar": {
-        "danceability": 0.666,
+        "danceability": 0.667,
         "energy": 0.397,
         "loudness": -15.599,
-        "speechiness": 0.869,
+        "speechiness": 0.87,
         "acousticness": 0.631,
         "instrumentalness": 0.004,
-        "liveness": 0.377,
-        "valence": 0.564,
-        "tempo": 101.999
+        "liveness": 0.376,
+        "valence": 0.565,
+        "tempo": 102.087
       },
       "share_by_decade": {
-        "1920": 0.28731045490822027,
-        "1930": 0.15789473684210525,
-        "1940": 0.035211267605633804,
-        "1950": 0.06574336726180544,
-        "1960": 0.030083497053045187,
-        "1970": 0.0605889547464484,
-        "1980": 0.10886040087824916,
-        "1990": 0.04797722022242518,
-        "2000": 0.013707037643207857,
+        "1920": 0.2857142857142857,
+        "1930": 0.15834457939721097,
+        "1940": 0.03591549295774648,
+        "1950": 0.06540964458534958,
+        "1960": 0.030329076620825148,
+        "1970": 0.06002446137924546,
+        "1980": 0.10864792124088109,
+        "1990": 0.04835330145597163,
+        "2000": 0.013502454991816694,
         "2010": 0.0038429865495470767,
-        "2020": 0.007557436517533253
+        "2020": 0.008766626360338573
       },
       "count_by_decade": {
-        "1920": 360,
-        "1930": 351,
-        "1940": 100,
-        "1950": 394,
-        "1960": 245,
-        "1970": 644,
-        "1980": 1537,
-        "1990": 893,
-        "2000": 201,
+        "1920": 358,
+        "1930": 352,
+        "1940": 102,
+        "1950": 392,
+        "1960": 247,
+        "1970": 638,
+        "1980": 1534,
+        "1990": 900,
+        "2000": 198,
         "2010": 70,
-        "2020": 25
+        "2020": 29
       }
     },
     {
-      "size": 21652,
-      "share": 0.2165,
-      "mean_popularity": 33.21,
-      "mean_pop_z": 0.043,
-      "median_year": 2001,
+      "size": 8430,
+      "share": 0.0843,
+      "mean_popularity": 15.9,
+      "mean_pop_z": -0.139,
+      "median_year": 1964,
+      "major_key_share": 0.669,
       "centroid_standardized": {
-        "danceability": 0.372,
-        "energy": 0.564,
-        "loudness": 0.491,
-        "speechiness": -0.137,
-        "acousticness": -0.547,
-        "instrumentalness": -0.184,
-        "liveness": -0.227,
-        "valence": 0.266,
-        "tempo": 0.132,
-        "duration_ms": 0.06,
-        "mode": -1.385,
-        "time_signature": 0.196
+        "danceability": -0.826,
+        "energy": -1.109,
+        "loudness": -1.366,
+        "speechiness": -0.278,
+        "acousticness": 1.081,
+        "instrumentalness": 2.633,
+        "liveness": -0.238,
+        "valence": -0.628,
+        "tempo": -0.346,
+        "duration_ms": 0.148
       },
       "centroid_raw_units": {
-        "danceability": 0.626,
-        "energy": 0.683,
-        "loudness": -7.742,
-        "speechiness": 0.084,
-        "acousticness": 0.261,
-        "instrumentalness": 0.063,
-        "liveness": 0.173,
-        "valence": 0.622,
-        "tempo": 122.383,
-        "duration_ms": 236678.805,
-        "mode": 0.0,
-        "time_signature": 3.965
+        "danceability": 0.428,
+        "energy": 0.263,
+        "loudness": -17.179,
+        "speechiness": 0.057,
+        "acousticness": 0.827,
+        "instrumentalness": 0.809,
+        "liveness": 0.171,
+        "valence": 0.391,
+        "tempo": 108.137,
+        "duration_ms": 247910.45
       },
       "top_genres": [
         [
-          "rock",
-          923
+          "classical",
+          1703
         ],
         [
-          "filmi",
-          679
+          "cool jazz",
+          660
         ],
         [
-          "latin",
-          584
+          "jazz",
+          648
         ],
         [
-          "classic rock",
-          563
-        ],
-        [
-          "album rock",
-          550
-        ],
-        [
-          "tropical",
+          "adult standards",
           481
         ],
         [
-          "dance pop",
-          475
+          "bebop",
+          469
         ],
         [
-          "hard rock",
-          473
+          "vocal jazz",
+          425
         ],
         [
-          "turkish pop",
-          455
+          "early romantic era",
+          413
         ],
         [
-          "soft rock",
-          450
+          "stride",
+          401
+        ],
+        [
+          "late romantic era",
+          396
+        ],
+        [
+          "lounge",
+          390
+        ]
+      ],
+      "top_genre_buckets": [
+        [
+          "Classical",
+          0.373
+        ],
+        [
+          "Jazz / Standards",
+          0.281
+        ],
+        [
+          "Pop",
+          0.11
+        ],
+        [
+          "Rock / Metal",
+          0.101
+        ],
+        [
+          "Latin / World",
+          0.073
+        ]
+      ],
+      "top_decades": [
+        [
+          1950,
+          1460
+        ],
+        [
+          1960,
+          1214
+        ],
+        [
+          1940,
+          1119
+        ],
+        [
+          1990,
+          903
+        ],
+        [
+          1970,
+          781
+        ]
+      ],
+      "top_artists": [
+        [
+          "Johann Sebastian Bach",
+          220
+        ],
+        [
+          "Francisco Canaro",
+          168
+        ],
+        [
+          "Wolfgang Amadeus Mozart",
+          148
+        ],
+        [
+          "Fr\u00e9d\u00e9ric Chopin",
+          143
+        ],
+        [
+          "Ludwig van Beethoven",
+          121
+        ],
+        [
+          "Igor Stravinsky",
+          86
+        ],
+        [
+          "Johannes Brahms",
+          70
+        ],
+        [
+          "Pyotr Ilyich Tchaikovsky",
+          57
+        ],
+        [
+          "Ignacio Corsini",
+          55
+        ],
+        [
+          "Lata Mangeshkar",
+          52
+        ],
+        [
+          "Franz Schubert",
+          48
+        ],
+        [
+          "Claude Debussy",
+          48
+        ],
+        [
+          "Oscar Peterson",
+          47
+        ],
+        [
+          "Joe Hisaishi",
+          47
+        ],
+        [
+          "Robert Schumann",
+          44
+        ],
+        [
+          "Johann Strauss II",
+          33
+        ],
+        [
+          "Felix Mendelssohn",
+          30
+        ],
+        [
+          "Bill Evans",
+          30
+        ],
+        [
+          "Richard Wagner",
+          28
+        ],
+        [
+          "Antonio Vivaldi",
+          28
+        ]
+      ],
+      "closest_songs": [
+        {
+          "name": "Remembering",
+          "artist": "John Abercrombie",
+          "year": 1975,
+          "popularity": 23,
+          "dist": 0.696
+        },
+        {
+          "name": "La boutique fantasque, P. 120 (after Rossini): Galop - Finale",
+          "artist": "Ottorino Respighi",
+          "year": 1950,
+          "popularity": 0,
+          "dist": 0.764
+        },
+        {
+          "name": "\u4e0b\u53483\u9ede40\u5206",
+          "artist": "Dong Yun-chang",
+          "year": 2004,
+          "popularity": 20,
+          "dist": 0.806
+        },
+        {
+          "name": "Symphony No. 3 in E-Flat Major, Op. 55 \"Eroica\": 3. Scherzo - Allegro vivace",
+          "artist": "Ludwig van Beethoven",
+          "year": 1929,
+          "popularity": 0,
+          "dist": 0.826
+        },
+        {
+          "name": "Allegro con brio in A Major \"Military\"",
+          "artist": "Fr\u00e9d\u00e9ric Chopin",
+          "year": 1928,
+          "popularity": 2,
+          "dist": 0.829
+        },
+        {
+          "name": "Petite Belle",
+          "artist": "The Art Farmer Quartet",
+          "year": 1965,
+          "popularity": 5,
+          "dist": 0.863
+        },
+        {
+          "name": "Stars Fell On Alabama",
+          "artist": "Teddy Wilson",
+          "year": 1957,
+          "popularity": 11,
+          "dist": 0.872
+        },
+        {
+          "name": "Ee Nallani Raallalo",
+          "artist": "Ghantasala",
+          "year": 1964,
+          "popularity": 12,
+          "dist": 0.911
+        },
+        {
+          "name": "Trikalini Mou Perdika",
+          "artist": "Mihalis Kallergis",
+          "year": 1940,
+          "popularity": 0,
+          "dist": 0.912
+        },
+        {
+          "name": "Remembrance",
+          "artist": "Gil Dech",
+          "year": 1956,
+          "popularity": 2,
+          "dist": 0.943
+        },
+        {
+          "name": "Piano Trio No. 1 in D Minor, Op. 63: II. Lebhaft, doch nicht zu rasch",
+          "artist": "Robert Schumann",
+          "year": 1953,
+          "popularity": 0,
+          "dist": 0.953
+        },
+        {
+          "name": "Sullivan: The Mikado or The Town of Titipu, Act 1: No. 1, Chorus, \"If you want to know who we are\" (Nobles)",
+          "artist": "Arthur Sullivan",
+          "year": 1957,
+          "popularity": 9,
+          "dist": 0.953
+        },
+        {
+          "name": "Ciudad Triste",
+          "artist": "Astor Piazzolla",
+          "year": 1963,
+          "popularity": 5,
+          "dist": 0.956
+        },
+        {
+          "name": "Lonesome Boatman",
+          "artist": "The Fureys",
+          "year": 1996,
+          "popularity": 29,
+          "dist": 0.957
+        },
+        {
+          "name": "Love Story",
+          "artist": "Santo & Johnny",
+          "year": 1971,
+          "popularity": 31,
+          "dist": 0.959
+        },
+        {
+          "name": "Moonlight In Vermont",
+          "artist": "Stan Getz And The Lighthouse All-Stars",
+          "year": 1953,
+          "popularity": 0,
+          "dist": 0.964
+        },
+        {
+          "name": "Symphony No. 29 in A Major, K. 201: I. Allegro moderato",
+          "artist": "Wolfgang Amadeus Mozart",
+          "year": 1955,
+          "popularity": 16,
+          "dist": 0.968
+        },
+        {
+          "name": "What Game Shall We Play Today",
+          "artist": "Gary Burton",
+          "year": 1973,
+          "popularity": 26,
+          "dist": 0.972
+        },
+        {
+          "name": "They Can't Take That Away From Me",
+          "artist": "Ray Conniff",
+          "year": 1957,
+          "popularity": 22,
+          "dist": 0.974
+        },
+        {
+          "name": "The Donkey Serenade",
+          "artist": "Mantovani",
+          "year": 1959,
+          "popularity": 7,
+          "dist": 0.978
+        }
+      ],
+      "showcase_songs": [
+        {
+          "name": "Mystery of Love",
+          "artist": "Sufjan Stevens",
+          "year": 2017,
+          "popularity": 73
+        },
+        {
+          "name": "Cello Suite No. 1 in G Major, BWV 1007: I. Pr\u00e9lude",
+          "artist": "Johann Sebastian Bach",
+          "year": 1983,
+          "popularity": 70
+        },
+        {
+          "name": "Comptine d'un autre \u00e9t\u00e9, l'apr\u00e8s-midi",
+          "artist": "Yann Tiersen",
+          "year": 2001,
+          "popularity": 70
+        },
+        {
+          "name": "Only",
+          "artist": "RY X",
+          "year": 2016,
+          "popularity": 67
+        },
+        {
+          "name": "One Summer Day",
+          "artist": "Joe Hisaishi",
+          "year": 2001,
+          "popularity": 64
+        },
+        {
+          "name": "Planet Caravan",
+          "artist": "Black Sabbath",
+          "year": 1970,
+          "popularity": 63
+        },
+        {
+          "name": "Master of None",
+          "artist": "Beach House",
+          "year": 2006,
+          "popularity": 63
+        },
+        {
+          "name": "Affection",
+          "artist": "Cigarettes After Sex",
+          "year": 2015,
+          "popularity": 63
+        },
+        {
+          "name": "Say You Wont Let Go",
+          "artist": "Ronald Emery",
+          "year": 2017,
+          "popularity": 63
+        },
+        {
+          "name": "Unchained Melody",
+          "artist": "Norah Jones",
+          "year": 2017,
+          "popularity": 63
+        },
+        {
+          "name": "The Four Seasons - Violin Concerto in F Minor, Op. 8 No. 4, RV 297 \"Winter\": I. Allegro non molto",
+          "artist": "Antonio Vivaldi",
+          "year": 2008,
+          "popularity": 62
+        },
+        {
+          "name": "Bodrum",
+          "artist": "Y\u00fczy\u00fczeyken Konu\u015furuz",
+          "year": 2018,
+          "popularity": 62
+        },
+        {
+          "name": "The Swan",
+          "artist": "Camille Saint-Sa\u00ebns",
+          "year": 2002,
+          "popularity": 61
+        },
+        {
+          "name": "Remembrance",
+          "artist": "Balmorhea",
+          "year": 2009,
+          "popularity": 61
+        },
+        {
+          "name": "A Whole New World - Aladdin",
+          "artist": "Rockabye Lullaby",
+          "year": 2011,
+          "popularity": 61
+        },
+        {
+          "name": "Baby Mine - Dumbo",
+          "artist": "Rockabye Lullaby",
+          "year": 2011,
+          "popularity": 60
+        },
+        {
+          "name": "Baby Blue",
+          "artist": "Kevin Kaarl",
+          "year": 2019,
+          "popularity": 59
+        },
+        {
+          "name": "A Lannister Always Pays His Debts",
+          "artist": "Ramin Djawadi",
+          "year": 2013,
+          "popularity": 59
+        },
+        {
+          "name": "Jazz Suite No. 2: VI. Waltz 2",
+          "artist": "Dmitri Shostakovich",
+          "year": 2002,
+          "popularity": 58
+        },
+        {
+          "name": "Just the Way You Are",
+          "artist": "The Piano Guys",
+          "year": 2013,
+          "popularity": 58
+        }
+      ],
+      "cluster_id": 3,
+      "name": "Instrumental Meditations",
+      "tagline": "Quiet, acoustic, no vocals",
+      "description": "Defined almost entirely by instrumentalness (+2.63 SD, raw 0.81): tracks with essentially no sung vocal. Also the quietest tribe (-17.2 dB) and the most acoustic (0.83). Dominated by classical (37%) and jazz (28%): Bach, Mozart, Chopin, Beethoven, Stravinsky, plus cool jazz, bebop and modern piano and ambient pieces (Yann Tiersen, Joe Hisaishi).",
+      "naming_justification": "Instrumentalness is the single dominant axis, and the low energy and low loudness give the contemplative character. This is the cluster the plan anticipated under exactly this name.",
+      "colour": "#17BEBB",
+      "silhouette": 0.137,
+      "radar": {
+        "danceability": 0.428,
+        "energy": 0.263,
+        "loudness": -17.178,
+        "speechiness": 0.057,
+        "acousticness": 0.827,
+        "instrumentalness": 0.809,
+        "liveness": 0.171,
+        "valence": 0.391,
+        "tempo": 108.138
+      },
+      "share_by_decade": {
+        "1920": 0.2849162011173184,
+        "1930": 0.2703553756185335,
+        "1940": 0.39401408450704223,
+        "1950": 0.24361755381278158,
+        "1960": 0.14906679764243616,
+        "1970": 0.07347821996424875,
+        "1980": 0.05156172533465543,
+        "1990": 0.04851447912749154,
+        "2000": 0.028300600109110747,
+        "2010": 0.03354378259676091,
+        "2020": 0.07285368802902055
+      },
+      "count_by_decade": {
+        "1920": 357,
+        "1930": 601,
+        "1940": 1119,
+        "1950": 1460,
+        "1960": 1214,
+        "1970": 781,
+        "1980": 728,
+        "1990": 903,
+        "2000": 415,
+        "2010": 611,
+        "2020": 241
+      }
+    },
+    {
+      "size": 25710,
+      "share": 0.2571,
+      "mean_popularity": 22.62,
+      "mean_pop_z": -0.062,
+      "median_year": 1980,
+      "major_key_share": 0.692,
+      "centroid_standardized": {
+        "danceability": -0.47,
+        "energy": -0.941,
+        "loudness": -0.516,
+        "speechiness": -0.3,
+        "acousticness": 0.852,
+        "instrumentalness": -0.334,
+        "liveness": -0.256,
+        "valence": -0.592,
+        "tempo": -0.26,
+        "duration_ms": -0.047
+      },
+      "centroid_raw_units": {
+        "danceability": 0.487,
+        "energy": 0.305,
+        "loudness": -12.858,
+        "speechiness": 0.053,
+        "acousticness": 0.747,
+        "instrumentalness": 0.023,
+        "liveness": 0.168,
+        "valence": 0.401,
+        "tempo": 110.705,
+        "duration_ms": 223043.174
+      },
+      "top_genres": [
+        [
+          "adult standards",
+          2389
+        ],
+        [
+          "vocal jazz",
+          1385
+        ],
+        [
+          "lounge",
+          1307
+        ],
+        [
+          "filmi",
+          1112
+        ],
+        [
+          "mellow gold",
+          1024
+        ],
+        [
+          "classical",
+          1002
+        ],
+        [
+          "folk rock",
+          907
+        ],
+        [
+          "soul",
+          850
+        ],
+        [
+          "c-pop",
+          832
+        ],
+        [
+          "easy listening",
+          831
         ]
       ],
       "top_genre_buckets": [
         [
           "Pop",
-          0.37
+          0.383
+        ],
+        [
+          "Jazz / Standards",
+          0.206
         ],
         [
           "Rock / Metal",
-          0.21
+          0.115
         ],
         [
-          "Hip-Hop / Rap",
-          0.144
-        ],
-        [
-          "Electronic / Dance",
-          0.088
+          "Country / Folk",
+          0.104
         ],
         [
           "Latin / World",
-          0.077
+          0.086
+        ]
+      ],
+      "top_decades": [
+        [
+          1990,
+          4167
+        ],
+        [
+          1960,
+          3632
+        ],
+        [
+          1970,
+          3519
+        ],
+        [
+          1980,
+          3398
+        ],
+        [
+          1950,
+          2995
+        ]
+      ],
+      "top_artists": [
+        [
+          "Lata Mangeshkar",
+          211
+        ],
+        [
+          "Giuseppe Verdi",
+          141
+        ],
+        [
+          "Ella Fitzgerald",
+          135
+        ],
+        [
+          "Frank Sinatra",
+          125
+        ],
+        [
+          "Giacomo Puccini",
+          121
+        ],
+        [
+          "Francisco Canaro",
+          106
+        ],
+        [
+          "Johann Sebastian Bach",
+          97
+        ],
+        [
+          "Billie Holiday",
+          94
+        ],
+        [
+          "Wolfgang Amadeus Mozart",
+          88
+        ],
+        [
+          "Dean Martin",
+          75
+        ],
+        [
+          "Mohammed Rafi",
+          71
+        ],
+        [
+          "Kishore Kumar",
+          62
+        ],
+        [
+          "Elvis Presley",
+          55
+        ],
+        [
+          "Javier Sol\u00eds",
+          55
+        ],
+        [
+          "Asha Bhosle",
+          54
+        ],
+        [
+          "Miles Davis",
+          53
+        ],
+        [
+          "Vicente Fern\u00e1ndez",
+          47
+        ],
+        [
+          "Doris Day",
+          46
+        ],
+        [
+          "Nat King Cole",
+          46
+        ],
+        [
+          "Ignacio Corsini",
+          46
+        ]
+      ],
+      "closest_songs": [
+        {
+          "name": "\u0e19\u0e01\u0e19\u0e32\u0e07\u0e19\u0e27\u0e25",
+          "artist": "Chatree",
+          "year": 1982,
+          "popularity": 9,
+          "dist": 0.393
+        },
+        {
+          "name": "Que Vengan a Beber",
+          "artist": "Los Altamirano",
+          "year": 1971,
+          "popularity": 15,
+          "dist": 0.413
+        },
+        {
+          "name": "Gesi Ba\u011flar\u0131",
+          "artist": "Bar\u0131\u015f Man\u00e7o",
+          "year": 1993,
+          "popularity": 29,
+          "dist": 0.472
+        },
+        {
+          "name": "\u30eb\u30fc\u30e0\u30fb\u30e9\u30a4\u30c8",
+          "artist": "Saori Yuki",
+          "year": 1987,
+          "popularity": 18,
+          "dist": 0.559
+        },
+        {
+          "name": "East Of The Sun",
+          "artist": "Frank Sinatra",
+          "year": 1961,
+          "popularity": 20,
+          "dist": 0.559
+        },
+        {
+          "name": "La source",
+          "artist": "Isabelle Aubret",
+          "year": 1973,
+          "popularity": 22,
+          "dist": 0.569
+        },
+        {
+          "name": "Helpless",
+          "artist": "Crosby, Stills, Nash & Young",
+          "year": 1970,
+          "popularity": 58,
+          "dist": 0.577
+        },
+        {
+          "name": "The Night Visiting Song",
+          "artist": "Luke Kelly",
+          "year": 2008,
+          "popularity": 37,
+          "dist": 0.58
+        },
+        {
+          "name": "Blow Away",
+          "artist": "Kate Bush",
+          "year": 1980,
+          "popularity": 30,
+          "dist": 0.599
+        },
+        {
+          "name": "Cestou do Straznice",
+          "artist": "Jaroslav Samson Lenk",
+          "year": 1990,
+          "popularity": 14,
+          "dist": 0.621
+        },
+        {
+          "name": "Too Many Rivers",
+          "artist": "Eddy Arnold",
+          "year": 1965,
+          "popularity": 17,
+          "dist": 0.63
+        },
+        {
+          "name": "Masih Ada",
+          "artist": "Warna",
+          "year": 2003,
+          "popularity": 36,
+          "dist": 0.64
+        },
+        {
+          "name": "Anoche Estuve Llorando",
+          "artist": "Aldo Monges",
+          "year": 1977,
+          "popularity": 17,
+          "dist": 0.645
+        },
+        {
+          "name": "Ka Karoon Sajni Guitar",
+          "artist": "Sunil Ganguly",
+          "year": 1994,
+          "popularity": 27,
+          "dist": 0.652
+        },
+        {
+          "name": "Campesina Santandereana",
+          "artist": "Hermanos Mart\u00ednez",
+          "year": 1991,
+          "popularity": 26,
+          "dist": 0.654
+        },
+        {
+          "name": "\u05de\u05d9 \u05e9\u05d7\u05dc\u05dd",
+          "artist": "IDF Bands",
+          "year": 1978,
+          "popularity": 27,
+          "dist": 0.66
+        },
+        {
+          "name": "Pensaba en Ti - Tema Remasterizado",
+          "artist": "Los Teen Tops",
+          "year": 1960,
+          "popularity": 48,
+          "dist": 0.661
+        },
+        {
+          "name": "S' Akoloutho",
+          "artist": "Manos Loizos",
+          "year": 1980,
+          "popularity": 11,
+          "dist": 0.666
+        },
+        {
+          "name": "Armistice Day",
+          "artist": "Paul Simon",
+          "year": 1972,
+          "popularity": 34,
+          "dist": 0.667
+        },
+        {
+          "name": "Je voudrais tant que tu sois l\u00e0",
+          "artist": "Serge Lama",
+          "year": 1998,
+          "popularity": 30,
+          "dist": 0.673
+        }
+      ],
+      "showcase_songs": [
+        {
+          "name": "Love Is Gone - Acoustic",
+          "artist": "SLANDER",
+          "year": 2019,
+          "popularity": 84
+        },
+        {
+          "name": "Runaway",
+          "artist": "AURORA",
+          "year": 2016,
+          "popularity": 84
+        },
+        {
+          "name": "Unstable (feat. The Kid LAROI)",
+          "artist": "Justin Bieber",
+          "year": 2021,
+          "popularity": 84
+        },
+        {
+          "name": "Happiest Year",
+          "artist": "Jaymes Young",
+          "year": 2019,
+          "popularity": 82
+        },
+        {
+          "name": "Someone Like You",
+          "artist": "Adele",
+          "year": 2011,
+          "popularity": 80
+        },
+        {
+          "name": "Beautiful Crazy",
+          "artist": "Luke Combs",
+          "year": 2018,
+          "popularity": 80
+        },
+        {
+          "name": "White Dress",
+          "artist": "Lana Del Rey",
+          "year": 2021,
+          "popularity": 78
+        },
+        {
+          "name": "this is how you fall in love",
+          "artist": "Jeremy Zucker",
+          "year": 2021,
+          "popularity": 77
+        },
+        {
+          "name": "Feeling Good",
+          "artist": "Nina Simone",
+          "year": 1965,
+          "popularity": 75
+        },
+        {
+          "name": "Empire State of Mind (Part II) Broken Down",
+          "artist": "Alicia Keys",
+          "year": 2009,
+          "popularity": 75
+        },
+        {
+          "name": "Bloom - Bonus Track",
+          "artist": "The Paper Kites",
+          "year": 2013,
+          "popularity": 75
+        },
+        {
+          "name": "Corduroy Dreams",
+          "artist": "Rex Orange County",
+          "year": 2016,
+          "popularity": 75
+        },
+        {
+          "name": "Want It Again",
+          "artist": "Thomas Rhett",
+          "year": 2021,
+          "popularity": 75
+        },
+        {
+          "name": "Hopelessly Devoted To You - From \u201cGrease\u201d",
+          "artist": "Olivia Newton-John",
+          "year": 1978,
+          "popularity": 74
+        },
+        {
+          "name": "Abr\u00e1zame Muy Fuerte",
+          "artist": "Juan Gabriel",
+          "year": 1990,
+          "popularity": 74
+        },
+        {
+          "name": "Please Notice",
+          "artist": "Christian Leave",
+          "year": 2016,
+          "popularity": 74
+        },
+        {
+          "name": "Let It Go",
+          "artist": "James Bay",
+          "year": 2015,
+          "popularity": 74
+        },
+        {
+          "name": "Bajo El Agua",
+          "artist": "Manuel Medrano",
+          "year": 2015,
+          "popularity": 74
+        },
+        {
+          "name": "Follow The Sun",
+          "artist": "Xavier Rudd",
+          "year": 2012,
+          "popularity": 73
+        },
+        {
+          "name": "Paubaya",
+          "artist": "Moira Dela Torre",
+          "year": 2020,
+          "popularity": 73
+        }
+      ],
+      "cluster_id": 4,
+      "name": "Acoustic Storytellers",
+      "tagline": "Soft, acoustic, vocal-led, melancholy",
+      "description": "Low energy (0.31), high acousticness (0.75), quiet (-12.9 dB), low valence (0.40), but near-zero instrumentalness (0.02) - a singer is present. Vocal jazz, adult standards, lounge, filmi and ballads: Sinatra, Ella Fitzgerald, Billie Holiday, Lata Mangeshkar, alongside modern acoustic ballads (Adele's Someone Like You sits here). Half of all 1950s tracks belong to this tribe.",
+      "naming_justification": "The pairing of high acousticness with low instrumentalness means 'acoustic backing plus a voice'; the low valence gives the reflective, narrative character.",
+      "colour": "#F3A712",
+      "silhouette": 0.214,
+      "radar": {
+        "danceability": 0.486,
+        "energy": 0.305,
+        "loudness": -12.858,
+        "speechiness": 0.053,
+        "acousticness": 0.747,
+        "instrumentalness": 0.023,
+        "liveness": 0.168,
+        "valence": 0.4,
+        "tempo": 110.709
+      },
+      "share_by_decade": {
+        "1920": 0.286512370311253,
+        "1930": 0.404408457040036,
+        "1940": 0.4278169014084507,
+        "1950": 0.4997497079926581,
+        "1960": 0.44597249508840864,
+        "1970": 0.3310753598645216,
+        "1980": 0.24066860259225156,
+        "1990": 0.22387578574114866,
+        "2000": 0.16414348063284234,
+        "2010": 0.15097447158934943,
+        "2020": 0.11154776299879081
+      },
+      "count_by_decade": {
+        "1920": 359,
+        "1930": 899,
+        "1940": 1215,
+        "1950": 2995,
+        "1960": 3632,
+        "1970": 3519,
+        "1980": 3398,
+        "1990": 4167,
+        "2000": 2407,
+        "2010": 2750,
+        "2020": 369
+      }
+    },
+    {
+      "size": 32836,
+      "share": 0.3284,
+      "mean_popularity": 32.25,
+      "mean_pop_z": 0.075,
+      "median_year": 1997,
+      "major_key_share": 0.637,
+      "centroid_standardized": {
+        "danceability": 0.822,
+        "energy": 0.476,
+        "loudness": 0.419,
+        "speechiness": -0.147,
+        "acousticness": -0.411,
+        "instrumentalness": -0.29,
+        "liveness": -0.295,
+        "valence": 0.814,
+        "tempo": -0.101,
+        "duration_ms": -0.071
+      },
+      "centroid_raw_units": {
+        "danceability": 0.701,
+        "energy": 0.661,
+        "loudness": -8.108,
+        "speechiness": 0.082,
+        "acousticness": 0.309,
+        "instrumentalness": 0.035,
+        "liveness": 0.16,
+        "valence": 0.763,
+        "tempo": 115.441,
+        "duration_ms": 219960.407
+      },
+      "top_genres": [
+        [
+          "latin",
+          1179
+        ],
+        [
+          "rock",
+          1126
+        ],
+        [
+          "classic rock",
+          1080
+        ],
+        [
+          "tropical",
+          1068
+        ],
+        [
+          "mellow gold",
+          969
+        ],
+        [
+          "filmi",
+          965
+        ],
+        [
+          "soft rock",
+          891
+        ],
+        [
+          "adult standards",
+          819
+        ],
+        [
+          "folk rock",
+          797
+        ],
+        [
+          "soul",
+          746
+        ]
+      ],
+      "top_genre_buckets": [
+        [
+          "Pop",
+          0.386
+        ],
+        [
+          "Rock / Metal",
+          0.167
+        ],
+        [
+          "Hip-Hop / Rap",
+          0.139
+        ],
+        [
+          "Latin / World",
+          0.104
+        ],
+        [
+          "Jazz / Standards",
+          0.088
         ]
       ],
       "top_decades": [
         [
           2010,
-          5925
-        ],
-        [
-          2000,
-          4308
+          7205
         ],
         [
           1990,
-          4230
+          6966
+        ],
+        [
+          2000,
+          5939
         ],
         [
           1980,
-          2809
+          4765
         ],
         [
           1970,
-          1648
+          3101
         ]
       ],
       "top_artists": [
         [
           "S. P. Balasubrahmanyam",
-          55
-        ],
-        [
-          "Die drei ???",
-          44
-        ],
-        [
-          "Lata Mangeshkar",
-          41
+          84
         ],
         [
           "Francisco Canaro",
-          30
+          70
         ],
         [
-          "Kumar Sanu",
-          26
+          "Lata Mangeshkar",
+          45
         ],
         [
-          "Eyal Golan",
-          23
+          "Elvis Presley",
+          42
         ],
         [
-          "Depeche Mode",
-          22
+          "Los Tigres Del Norte",
+          40
         ],
         [
-          "Jul",
-          22
+          "Workout Music ",
+          40
         ],
         [
-          "Armin van Buuren",
-          22
-        ],
-        [
-          "Mohammed Rafi",
-          21
-        ],
-        [
-          "Sezen Aksu",
-          20
+          "Eddie Meduza",
+          38
         ],
         [
           "Asha Bhosle",
-          20
+          36
         ],
         [
-          "M\u00fcsl\u00fcm G\u00fcrses",
-          19
+          "Die drei ???",
+          36
         ],
         [
-          "Black Sabbath",
-          18
+          "Johnny Cash",
+          34
         ],
         [
-          "Alka Yagnik",
-          17
+          "Udit Narayan",
+          33
         ],
         [
-          "Anna Vissi",
-          17
+          "The Beach Boys",
+          32
         ],
         [
-          "Miles Davis",
-          17
+          "The Rolling Stones",
+          32
         ],
         [
-          "Ahmet Kaya",
-          17
+          "El Gran Combo De Puerto Rico",
+          30
         ],
         [
-          "Korol i Shut",
-          17
+          "The Beatles",
+          29
         ],
         [
-          "BTS",
-          17
+          "Fleetwood Mac",
+          29
+        ],
+        [
+          "Bronco",
+          29
+        ],
+        [
+          "Diomedes Diaz",
+          28
+        ],
+        [
+          "Jul",
+          28
+        ],
+        [
+          "Joan Sebastian",
+          27
         ]
       ],
       "closest_songs": [
         {
-          "name": "Bir Ku\u015f U\u00e7ur",
-          "artist": "Sezen Aksu",
-          "year": 1988,
-          "popularity": 29,
-          "dist": 0.553
-        },
-        {
-          "name": "Sk\u00f3laball",
-          "artist": "Brimkl\u00f3",
-          "year": 1981,
-          "popularity": 24,
-          "dist": 0.562
-        },
-        {
-          "name": "Private Dancer - Single Edit",
-          "artist": "Tina Turner",
-          "year": 1991,
-          "popularity": 51,
-          "dist": 0.592
-        },
-        {
-          "name": "Dream Away - Remastered 2004",
-          "artist": "George Harrison",
-          "year": 1982,
-          "popularity": 34,
-          "dist": 0.612
-        },
-        {
-          "name": "C'est la vie",
-          "artist": "Anna Puu",
-          "year": 2009,
-          "popularity": 37,
-          "dist": 0.64
-        },
-        {
-          "name": "Klusiet Jauni Klusiet Veci",
-          "artist": "Dzelzs Vilks",
-          "year": 2008,
-          "popularity": 17,
-          "dist": 0.65
-        },
-        {
-          "name": "\u0e44\u0e21\u0e48\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01\u0e09\u0e31\u0e19 \u0e44\u0e21\u0e48\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01\u0e40\u0e18\u0e2d",
-          "artist": "Da Endorphine",
-          "year": 2014,
-          "popularity": 39,
-          "dist": 0.721
-        },
-        {
-          "name": "Evolution Orange",
-          "artist": "Earth, Wind & Fire",
-          "year": 1981,
-          "popularity": 31,
-          "dist": 0.725
-        },
-        {
-          "name": "Dand\u00e1",
-          "artist": "Karametade",
-          "year": 1999,
-          "popularity": 33,
-          "dist": 0.743
-        },
-        {
-          "name": "Mungkinkah",
-          "artist": "Sheila Abdull",
-          "year": 2008,
-          "popularity": 33,
-          "dist": 0.744
-        },
-        {
-          "name": "Till The Sun Comes Up",
-          "artist": "Miss Montreal",
-          "year": 2018,
+          "name": "Devil Woman - 2001 Remaster",
+          "artist": "Cliff Richard",
+          "year": 1976,
           "popularity": 49,
-          "dist": 0.748
+          "dist": 0.384
         },
         {
-          "name": "Pajama Time",
-          "artist": "Misato Watanabe",
-          "year": 1987,
-          "popularity": 15,
-          "dist": 0.75
+          "name": "Nobody Wins",
+          "artist": "Radney Foster",
+          "year": 1992,
+          "popularity": 49,
+          "dist": 0.485
         },
         {
-          "name": "A Cara o Cruz - Remasterizado",
-          "artist": "Jos\u00e9 Velez",
-          "year": 1980,
-          "popularity": 30,
-          "dist": 0.758
+          "name": "Odio Amarte",
+          "artist": "Ha*Ash",
+          "year": 2003,
+          "popularity": 66,
+          "dist": 0.491
         },
         {
-          "name": "No Trouble On the Mountain",
-          "artist": "Richard \"Groove\" Holmes",
-          "year": 1975,
-          "popularity": 20,
-          "dist": 0.764
+          "name": "\u4eca\u5929\u7684\u6211",
+          "artist": "\u9cf3\u98db\u98db",
+          "year": 1986,
+          "popularity": 14,
+          "dist": 0.575
         },
         {
-          "name": "Sto Fanari",
-          "artist": "Pantelis Pantelidis",
-          "year": 2013,
-          "popularity": 35,
-          "dist": 0.776
+          "name": "Inga problem",
+          "artist": "Snook",
+          "year": 2006,
+          "popularity": 38,
+          "dist": 0.579
         },
         {
-          "name": "Ya no somos amantes",
-          "artist": "Daniela Romo",
-          "year": 1984,
-          "popularity": 36,
-          "dist": 0.777
-        },
-        {
-          "name": "\u05d0\u05d5\u05dc\u05d9 \u05e2\u05dc \u05e9\u05e4\u05ea \u05d4\u05d9\u05dd",
-          "artist": "Yehoram Gaon",
-          "year": 1971,
-          "popularity": 21,
-          "dist": 0.783
-        },
-        {
-          "name": "Tombstone Valentine",
-          "artist": "Wigwam",
-          "year": 1970,
-          "popularity": 12,
-          "dist": 0.783
-        },
-        {
-          "name": "XXL",
-          "artist": "Myl\u00e8ne Farmer",
-          "year": 1995,
-          "popularity": 39,
-          "dist": 0.793
-        },
-        {
-          "name": "Peacekeeper - Live 1997; 2018 Remaster",
-          "artist": "Fleetwood Mac",
+          "name": "As\u00ed Es el Amor - En Vivo",
+          "artist": "Agua Marina",
           "year": 2018,
-          "popularity": 33,
-          "dist": 0.796
+          "popularity": 46,
+          "dist": 0.603
+        },
+        {
+          "name": "Muffins",
+          "artist": "Bj\u00f6rn Rosenstr\u00f6m",
+          "year": 2009,
+          "popularity": 38,
+          "dist": 0.609
+        },
+        {
+          "name": "Ellerimde \u00c7i\u00e7ekler",
+          "artist": "Kenan Do\u011fulu",
+          "year": 2001,
+          "popularity": 38,
+          "dist": 0.619
+        },
+        {
+          "name": "Contigo (feat. Natalia Lafourcade)",
+          "artist": "El Canto Del Loco",
+          "year": 2009,
+          "popularity": 64,
+          "dist": 0.625
+        },
+        {
+          "name": "\u0e41\u0e25\u0e49\u0e27\u0e40\u0e18\u0e2d\u0e08\u0e30\u0e23\u0e39\u0e49\u0e1a\u0e49\u0e32\u0e07\u0e44\u0e2b\u0e21",
+          "artist": "Dept",
+          "year": 2018,
+          "popularity": 43,
+          "dist": 0.625
+        },
+        {
+          "name": "No Me Digas Que No",
+          "artist": "Ratones Paranoicos",
+          "year": 1990,
+          "popularity": 19,
+          "dist": 0.627
+        },
+        {
+          "name": "Agapi Alkooliki",
+          "artist": "Notis Sfakianakis",
+          "year": 1998,
+          "popularity": 14,
+          "dist": 0.639
+        },
+        {
+          "name": "Roxa",
+          "artist": "Pixinguinha",
+          "year": 1968,
+          "popularity": 17,
+          "dist": 0.661
+        },
+        {
+          "name": "Satu Bintang",
+          "artist": "Antique",
+          "year": 2008,
+          "popularity": 40,
+          "dist": 0.661
+        },
+        {
+          "name": "Zomertijd",
+          "artist": "Frank Verkooyen",
+          "year": 1995,
+          "popularity": 26,
+          "dist": 0.662
+        },
+        {
+          "name": "Bicikli \u00e9g \u00e9s f\u00f6ld k\u00f6z\u00f6tt",
+          "artist": "Napoleon Boulevard",
+          "year": 1990,
+          "popularity": 10,
+          "dist": 0.664
+        },
+        {
+          "name": "S\u00f3 As M\u00e3es S\u00e3o Felizes",
+          "artist": "Cazuza",
+          "year": 1985,
+          "popularity": 26,
+          "dist": 0.666
+        },
+        {
+          "name": "Tiemblo",
+          "artist": "Mariano Bermudez",
+          "year": 2017,
+          "popularity": 26,
+          "dist": 0.67
+        },
+        {
+          "name": "Ll\u00e9vatelo",
+          "artist": "Antonio Orozco",
+          "year": 2009,
+          "popularity": 41,
+          "dist": 0.671
+        },
+        {
+          "name": "Lovers Don't Talk",
+          "artist": "The Cats",
+          "year": 1983,
+          "popularity": 26,
+          "dist": 0.672
         }
       ],
       "showcase_songs": [
         {
-          "name": "Paradise (feat. Dermot Kennedy)",
-          "artist": "MEDUZA",
-          "year": 2020,
+          "name": "Goosebumps - Remix",
+          "artist": "Travis Scott",
+          "year": 2021,
           "popularity": 92
+        },
+        {
+          "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
+          "artist": "Maroon 5",
+          "year": 2021,
+          "popularity": 90
         },
         {
           "name": "Whoopty",
           "artist": "CJ",
           "year": 2020,
           "popularity": 89
+        },
+        {
+          "name": "Dreams - 2004 Remaster",
+          "artist": "Fleetwood Mac",
+          "year": 1977,
+          "popularity": 86
         },
         {
           "name": "Don't Start Now",
@@ -2945,10 +2941,10 @@
           "popularity": 85
         },
         {
-          "name": "Monster (Shawn Mendes & Justin Bieber)",
-          "artist": "Shawn Mendes",
-          "year": 2020,
-          "popularity": 85
+          "name": "Everybody Wants To Rule The World",
+          "artist": "Tears For Fears",
+          "year": 1985,
+          "popularity": 84
         },
         {
           "name": "Se\u00f1orita",
@@ -2957,22 +2953,34 @@
           "popularity": 84
         },
         {
-          "name": "I Feel It Coming",
-          "artist": "The Weeknd",
-          "year": 2016,
+          "name": "Mala Costumbre",
+          "artist": "Manuel Turizo",
+          "year": 2021,
           "popularity": 84
         },
         {
-          "name": "EL MAKINON",
-          "artist": "KAROL G",
-          "year": 2021,
-          "popularity": 84
+          "name": "Fortunate Son",
+          "artist": "Creedence Clearwater Revival",
+          "year": 1969,
+          "popularity": 83
+        },
+        {
+          "name": "Without Me",
+          "artist": "Halsey",
+          "year": 2018,
+          "popularity": 83
         },
         {
           "name": "Lifestyle (feat. Adam Levine)",
           "artist": "Jason Derulo",
           "year": 2021,
           "popularity": 83
+        },
+        {
+          "name": "Ain't No Mountain High Enough",
+          "artist": "Marvin Gaye",
+          "year": 1967,
+          "popularity": 82
         },
         {
           "name": "New Rules",
@@ -2987,6 +2995,24 @@
           "popularity": 82
         },
         {
+          "name": "Loved By You (feat. Burna Boy)",
+          "artist": "Justin Bieber",
+          "year": 2021,
+          "popularity": 82
+        },
+        {
+          "name": "Pulei na Piscina - Ao Vivo",
+          "artist": "Guilherme & Benuto",
+          "year": 2020,
+          "popularity": 82
+        },
+        {
+          "name": "CHICKEN TENDIES",
+          "artist": "Clinton Kane",
+          "year": 2021,
+          "popularity": 82
+        },
+        {
           "name": "Beautiful People (feat. Khalid)",
           "artist": "Ed Sheeran",
           "year": 2019,
@@ -2997,93 +3023,51 @@
           "artist": "Maroon 5",
           "year": 2014,
           "popularity": 81
-        },
-        {
-          "name": "Cake By The Ocean",
-          "artist": "DNCE",
-          "year": 2016,
-          "popularity": 81
-        },
-        {
-          "name": "Waiting For Love",
-          "artist": "Avicii",
-          "year": 2015,
-          "popularity": 81
-        },
-        {
-          "name": "Enter Sandman",
-          "artist": "Metallica",
-          "year": 1991,
-          "popularity": 80
-        },
-        {
-          "name": "No Scrubs",
-          "artist": "TLC",
-          "year": 1999,
-          "popularity": 80
-        },
-        {
-          "name": "Ingobernable",
-          "artist": "C. Tangana",
-          "year": 2021,
-          "popularity": 80
-        },
-        {
-          "name": "Don't Stop The Music",
-          "artist": "Rihanna",
-          "year": 2008,
-          "popularity": 79
-        },
-        {
-          "name": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)",
-          "artist": "Shakira",
-          "year": 2010,
-          "popularity": 79
         }
       ],
       "cluster_id": 5,
-      "name": "Midnight Anthems",
-      "tagline": "The same drive, in minor keys",
-      "description": "Sonically almost identical to Sunlit Anthems - same energy (0.68), loudness (-7.7 dB), danceability (0.63) and acousticness (0.26) - but every track is in a minor key. It skews noticeably more recent (median 2001 vs 1998) and carries more hip-hop (14% vs 9%) and electronic/dance (9% vs 7%), consistent with the industry-wide drift toward minor tonality in modern pop.",
-      "naming_justification": "Named as the deliberate counterpart of cluster 0, because the split between them is tonal rather than sonic. The report documents this pair as an artifact of including the binary 'mode' feature in a Euclidean clustering.",
-      "colour": "#4C9F70",
-      "silhouette": 0.164,
+      "name": "Sunlit Grooves",
+      "tagline": "Bright, danceable, feel-good",
+      "description": "The largest tribe and the happiest: danceability 0.70 (+0.82 SD) and valence 0.76 (+0.81 SD), with solid energy (0.66) and loudness (-8.1 dB) at a moderate 115 BPM. Pop (39%), rock (17%), hip-hop (14%) and Latin (10%): Elvis Presley, Johnny Cash, The Beach Boys, Los Tigres del Norte, S. P. Balasubrahmanyam, and modern dance-pop. Its share grows to 47% of the 2020s.",
+      "naming_justification": "Named for the combination of high valence ('sunlit') and high danceability ('grooves'). Where High-Voltage Anthems is fast and intense, this tribe is upbeat and rhythmic - the split the 10 continuous features find in place of the old major/minor pair.",
+      "colour": "#E4572E",
+      "silhouette": 0.207,
       "radar": {
-        "danceability": 0.626,
-        "energy": 0.683,
-        "loudness": -7.741,
-        "speechiness": 0.084,
-        "acousticness": 0.261,
-        "instrumentalness": 0.063,
-        "liveness": 0.173,
-        "valence": 0.622,
-        "tempo": 122.385
+        "danceability": 0.701,
+        "energy": 0.661,
+        "loudness": -8.114,
+        "speechiness": 0.082,
+        "acousticness": 0.309,
+        "instrumentalness": 0.035,
+        "liveness": 0.16,
+        "valence": 0.763,
+        "tempo": 115.447
       },
       "share_by_decade": {
-        "1920": 0.03910614525139665,
-        "1930": 0.048133153396311294,
-        "1940": 0.043309859154929575,
-        "1950": 0.05639913232104121,
-        "1960": 0.10670432220039293,
-        "1970": 0.1550475115250729,
-        "1980": 0.19895176712231744,
-        "1990": 0.22726051684306667,
-        "2000": 0.2937806873977087,
-        "2010": 0.3252813615152347,
-        "2020": 0.3766626360338573
+        "1920": 0.1149241819632881,
+        "1930": 0.103463787674314,
+        "1940": 0.08661971830985915,
+        "1950": 0.12898381445019189,
+        "1960": 0.2363703339882122,
+        "1970": 0.2917489886160504,
+        "1980": 0.3374884906863092,
+        "1990": 0.3742545532692204,
+        "2000": 0.40500545553737044,
+        "2010": 0.3955531155640955,
+        "2020": 0.466142684401451
       },
       "count_by_decade": {
-        "1920": 49,
-        "1930": 107,
-        "1940": 123,
-        "1950": 338,
-        "1960": 869,
-        "1970": 1648,
-        "1980": 2809,
-        "1990": 4230,
-        "2000": 4308,
-        "2010": 5925,
-        "2020": 1246
+        "1920": 144,
+        "1930": 230,
+        "1940": 246,
+        "1950": 773,
+        "1960": 1925,
+        "1970": 3101,
+        "1980": 4765,
+        "1990": 6966,
+        "2000": 5939,
+        "2010": 7205,
+        "2020": 1542
       }
     }
   ]
